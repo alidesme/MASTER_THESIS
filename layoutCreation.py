@@ -1,38 +1,41 @@
-import random, os
-def createLayout(number_of_layouts, height, width, directory_layout, probability=0.9):
+"""
+Author      : DESMET Aline 
+Matricule   : 000474868 (MA2-INFO)
+Description : Generate random layouts
+"""
+
+import random
+import os
+from typing import List, Tuple
+
+Grid = List[List[bool]]
+Position = Tuple[int, int]
+def createLayout(number_of_layouts:int, height:int, width:int, directory_layout:str, probability:float=0.9) -> None:
     try:
         os.mkdir(directory_layout)
     except OSError as error:
-        print("{0} was not created as it already exists.".format(directory_layout))  
-    filename=directory_layout+os.sep+'_'+str(height)+'x'+str(width)+'_'
+        print("{0} was not created as it already exists.".format(directory_layout))
+    filename = directory_layout+os.sep+'_'+str(height)+'x'+str(width)+'_'
     for i in range(number_of_layouts):
-        file = open(filename+str(i)+".lay","w+")
+        file = open(filename+str(i)+".lay", "w+")
         walls = setWallsPositions(height, width, probability)
-        clients, gaz_station, airport, taxi_position = setPositions(walls,probability) 
-        # print(walls)
-        # for ik in range(len(walls)):
-        #     print(  "WALLS{0}".format(ik) , walls[ik] )
-        for ik in range(len(clients)):
-            print(  "CLIENTS{0}".format(ik) , clients[ik] )
-        # # print(gaz_station)
-        for ik in range(len(gaz_station)):
-            print(  "STATION{0}".format(ik) , gaz_station[ik] )
-        # # print(airport)
-        for ik in range(len(airport)):
-            print(  "AIRPORT{0}".format(ik) , airport[ik] )
-        # print(taxi_position)
-        print(  "TAXI", taxi_position )
-
+        clients, gaz_station, airport, taxi_position = setPositions(
+            walls, probability)
+        draw_horizon= 2*(height+width)
+        grid_str= transformToStr(walls, clients, gaz_station, airport, taxi_position, draw_horizon)
+        print(grid_str, file=file)
         file.close()
-def setWallsPositions(height, width, probability=0.9):
-    
+
+
+def setWallsPositions(height:int, width:int, probability:float=0.9) -> Grid:
+
     city_grid = []
-    for i in range(height): # Lines
-        row = []  
-        for j in range(width): # Columns
+    for i in range(height):  # Lines
+        row = []
+        for j in range(width):  # Columns
             random_probability = random.random()
             (is_upperLower_borders) = i == 0 or i == height-1
-            is_side_borders = j == 0 or  j == width-1
+            is_side_borders = j == 0 or j == width-1
             if (is_upperLower_borders) or (is_side_borders):
                 row.append(True)
             elif random_probability > probability:
@@ -43,7 +46,7 @@ def setWallsPositions(height, width, probability=0.9):
     return city_grid
 
 
-def setPositions(walls, probability=0.9):
+def setPositions(walls:Grid, probability:float=0.9):
     height, width = len(walls), len(walls[0])
     gaz_station = [[False for j in range(width)] for i in range(height)]
     airport = [[False for j in range(width)] for i in range(height)]
@@ -60,69 +63,38 @@ def setPositions(walls, probability=0.9):
             else:
                 row.append(False)
         clients.append(row)
-    gaz_station = new_func(walls, height, width, gaz_station, clients)[0]
-    airport = new_func(walls, height, width, airport, gaz_station, clients)[0]
-    taxi = new_func(walls, height, width, taxi, airport, gaz_station, clients)[1]
-    # airport_line = random.randint(0, height-1)
-    # airport_column = random.randint(0, width-1)
-    # is_available_for_airport = is_available_for_station and gaz_station[airport_line][airport_column]
-    # while not is_available_for_airport:
-    #     airport_line = random.randint(0, height-1)
-    #     airport_column = random.randint(0, width-1)
-    #     is_available_for_airport = is_available_for_station and gaz_station[airport_line][airport_column]
-    # if is_available_for_airport:
-    #     airport[airport_line][airport_column] = True
 
+    gaz_station = setOnePosition(walls, height, width, gaz_station, clients)[0]
+    airport = setOnePosition(walls, height, width, airport, gaz_station, clients)[0]
+    taxi = setOnePosition(walls, height, width, taxi,
+                    airport, gaz_station, clients)[1]
 
     return clients, gaz_station, airport, taxi
 
-def new_func(walls, height, width, position_to_change, *elem):
-    # line = random.randint(0, height-1)
-    # column = random.randint(0, width-1)
+
+def setOnePosition(walls:Grid, height:int, width:int, position_to_change:Grid, *other_positions:Grid):
+
     is_available = False
     while not is_available:
         line = random.randint(0, height-1)
         column = random.randint(0, width-1)
         i = 0
-        is_available = not walls[line][column] and not elem[i][line][column]
+        is_available = not walls[line][column] and not other_positions[i][line][column]
 
-        while i < len(elem)-1 and is_available:
-            is_available = not walls[line][column] and not elem[i+1][line][column]
-            i+=1
+        while i < len(other_positions)-1 and is_available:
+            is_available = not walls[line][column] and not other_positions[i+1][line][column]
+            i += 1
 
-        if is_available :
+        if is_available:
             position_to_change[line][column] = True
-    
-# is_available = False
-#     i=0
-#     while not is_available:
-#         line = random.randint(0, height-1)
-#         column = random.randint(0, width-1)
-#         is_available = not walls[line][column] and not elem1[line][column]
-#         # print(is_available)
-#         if (len(elem2) > 0):
-#             is_available = not walls[line][column] and not elem1[line][column]and not elem2[line][column] 
-#             if (len(elem3)>0):
-#                 is_available = not walls[line][column] and not elem1[line][column]and not elem2[line][column]and not elem3[line][column] 
 
-#         if is_available :
-#             position_to_change[line][column] = True
-    
+    return position_to_change, (line, column)
 
+def transformToStr(walls: Grid, clients: Grid, gaz_station: Grid, airport:Grid, taxi:Position, draw_horizon:int, discount:int=1) -> str:
+    grid_str = "\n".join(["".join(["P" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[i][j] else ("G" if gaz_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
+    grid_str+= '\nParameters\ndraw '+str(draw_horizon)+'\ndiscount '+str(discount)+'\nInitPosition\n'+str(taxi)
+    return grid_str
 
-
-    # for i in range(len(elem)):
-    #     is_available = not walls[line][column] and not elem[i][line][column]
-    # while not is_available:
-    #     line = random.randint(0, height-1)
-    #     column = random.randint(0, width-1)
-    #     ok = True
-    #     for i in range(len(elem)):
-    #         ok = ok and not elem[i][line][column]
-    #     is_available = not walls[line][column] and ok
-    # if is_available:
-    #     position_to_change[line][column] = True
-    return position_to_change, (line,column)
 if __name__ == '__main__':
-	createLayout(1,5,7,"test",probability=0.9)
-	pass
+    createLayout(3, 50, 70, "layouts", probability=0.9)
+    pass
