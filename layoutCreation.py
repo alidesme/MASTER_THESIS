@@ -7,12 +7,13 @@ Description : Generate random layouts
 import random
 import os
 from typing import List, Tuple
+import copy
 
 Grid = List[List[bool]]
 Position = Tuple[int, int]
 
 
-def createLayout(number_of_layouts: int, height: int, width: int, number_of_clients: int, probability: float = 0.9, simplified: bool = False, directory_layout: str = "layouts") -> None:
+def createLayout(number_of_layouts: int, height: int, width: int, number_of_clients: int, fuel_level:int, probability: float = 0.9, simplified: bool = False, directory_layout: str = "layouts") -> None:
     try:
         os.mkdir(directory_layout)
     except OSError as error:
@@ -21,12 +22,12 @@ def createLayout(number_of_layouts: int, height: int, width: int, number_of_clie
     for i in range(number_of_layouts):
         file = open(filename+str(i)+".lay", "w+")
         walls = setWallsPositions(height, width, probability)
-        clients, gaz_station, airport, taxi_position = setOtherPositions(
+        clients, fuel_station, airport, taxi_position = setOtherPositions(
             walls, number_of_clients, simplified)
 
-        grid_str = f"{height} {width} {number_of_clients}\n"
+        grid_str = f"{height} {width} {number_of_clients} {fuel_level}\n"
         grid_str += transformToStr(walls, clients,
-                                   gaz_station, airport, taxi_position)
+                                   fuel_station, airport, taxi_position)
         print(grid_str, file=file)
         file.close()
 
@@ -52,24 +53,27 @@ def setWallsPositions(height: int, width: int, probability: float = 0.9) -> Grid
 
 def setOtherPositions(walls: Grid, number_of_clients, simplified: bool = False):
     height, width = len(walls), len(walls[0])
-    gaz_station = [[False for j in range(width)] for i in range(height)]
+    fuel_station = [[False for j in range(width)] for i in range(height)]
     airport = [[False for j in range(width)] for i in range(height)]
     taxi = [[False for j in range(width)] for i in range(height)]
-    clients = [[False for j in range(width)] for i in range(height)]
+    clients_start = [[False for j in range(width)] for i in range(height)]
+    clients_destination = [[False for j in range(width)] for i in range(height)]
 
-    clients = setSeveralPositions(
-        walls, height, width, number_of_clients, clients, clients)
+    clients_start = setSeveralPositions(
+        walls, height, width, number_of_clients, clients_start, clients_start)
 
-    gaz_station = setOnePosition(
-        walls, height, width, gaz_station, clients[0])[0]
+    fuel_station = setOnePosition(
+        walls, height, width, fuel_station, clients_start[0])[0]
 
     if (not simplified):
         airport = setOnePosition(walls, height, width,
-                                 airport, gaz_station, clients[0])[0]
+                                 airport, fuel_station, clients_start[0])[0]
     taxi = setOnePosition(walls, height, width, taxi,
-                          airport, gaz_station, clients[0])[1]
+                          airport, fuel_station, clients_start[0])[1]
+    clients_destination = setSeveralPositions(
+        walls, height, width, number_of_clients, clients_destination, airport,fuel_station)
 
-    return clients, gaz_station, airport, taxi
+    return (clients_start,clients_destination) , fuel_station, airport, taxi
 
 
 def setSeveralPositions(walls: Grid, height: int, width: int, n: int, position_to_change: Grid, *other_positions: Grid):
@@ -94,6 +98,7 @@ def setSeveralPositions(walls: Grid, height: int, width: int, n: int, position_t
             position_to_change[line][column] = True
             client_positions.append((line, column))
             counter += 1
+    
 
     return position_to_change, client_positions
 
@@ -121,17 +126,19 @@ def setOnePosition(walls: Grid, height: int, width: int, position_to_change: Gri
     return position_to_change, (line, column)
 
 
-def transformToStr(walls: Grid, clients: Grid, gaz_station: Grid, airport: Grid, taxi: Position) -> str:
-    grid_str = "\n".join(["".join(["T" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[0][i][j] else (
-        "G" if gaz_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
+def transformToStr(walls: Grid, clients: Grid, fuel_station: Grid, airport: Grid, taxi: Position) -> str:
+    grid_str = "\n".join(["".join(["T" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[0][0][i][j] else (
+        "F" if fuel_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
     grid_str += f"\n {taxi[0]} {taxi[1]} 0"
-    for i in range(len(clients[1])):
-        grid_str += f"\n {clients[1][i][0]} {clients[1][i][1]}"
+    for i in range(len(clients[0][1])):
+        grid_str += f"\n {clients[0][1][i][0]} {clients[0][1][i][1]}"
+        grid_str += f" {clients[1][1][i][0]} {clients[1][1][i][1]}"
     return grid_str
 
 
 if __name__ == '__main__':
-    createLayout(3, 10, 10, 15, simplified=True,
-                 directory_layout="simplified_layout")
-    createLayout(3, 10, 10, 15)
+    height, width = 10,10
+    createLayout(3, height, width, 15, (height*width)*10, simplified=True,
+                 directory_layout="simplified_layouts")
+    createLayout(3, height, width, 15, (height*width)*10)
     pass
