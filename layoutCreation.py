@@ -10,7 +10,9 @@ from typing import List, Tuple
 
 Grid = List[List[bool]]
 Position = Tuple[int, int]
-def createLayout(number_of_layouts:int, height:int, width:int, directory_layout:str, probability:float=0.9) -> None:
+
+
+def createLayout(number_of_layouts: int, height: int, width: int, number_of_clients: int, probability: float = 0.9, simplified: bool = False, directory_layout: str = "layouts") -> None:
     try:
         os.mkdir(directory_layout)
     except OSError as error:
@@ -19,15 +21,17 @@ def createLayout(number_of_layouts:int, height:int, width:int, directory_layout:
     for i in range(number_of_layouts):
         file = open(filename+str(i)+".lay", "w+")
         walls = setWallsPositions(height, width, probability)
-        clients, gaz_station, airport, taxi_position = setPositions(
-            walls, probability)
-        draw_horizon= 2*(height+width)
-        grid_str= transformToStr(walls, clients, gaz_station, airport, taxi_position, draw_horizon)
+        clients, gaz_station, airport, taxi_position = setOtherPositions(
+            walls, number_of_clients, simplified)
+
+        grid_str = f"{height} {width} {number_of_clients}\n"
+        grid_str += transformToStr(walls, clients,
+                                   gaz_station, airport, taxi_position)
         print(grid_str, file=file)
         file.close()
 
 
-def setWallsPositions(height:int, width:int, probability:float=0.9) -> Grid:
+def setWallsPositions(height: int, width: int, probability: float = 0.9) -> Grid:
 
     city_grid = []
     for i in range(height):  # Lines
@@ -46,40 +50,66 @@ def setWallsPositions(height:int, width:int, probability:float=0.9) -> Grid:
     return city_grid
 
 
-def setPositions(walls:Grid, probability:float=0.9):
+def setOtherPositions(walls: Grid, number_of_clients, simplified: bool = False):
     height, width = len(walls), len(walls[0])
     gaz_station = [[False for j in range(width)] for i in range(height)]
     airport = [[False for j in range(width)] for i in range(height)]
     taxi = [[False for j in range(width)] for i in range(height)]
-    clients = []
-    for i in range(height):
-        row = []
-        for j in range(width):
-            random_probability = random.random()
-            if walls[i][j]:
-                row.append(False)
-            elif random_probability > probability:
-                row.append(True)
-            else:
-                row.append(False)
-        clients.append(row)
+    clients = [[False for j in range(width)] for i in range(height)]
 
-    gaz_station = setOnePosition(walls, height, width, gaz_station, clients)[0]
-    airport = setOnePosition(walls, height, width, airport, gaz_station, clients)[0]
+    clients = setSeveralPositions(
+        walls, height, width, number_of_clients, clients, clients)
+
+    gaz_station = setOnePosition(
+        walls, height, width, gaz_station, clients[0])[0]
+
+    if (not simplified):
+        airport = setOnePosition(walls, height, width,
+                                 airport, gaz_station, clients[0])[0]
     taxi = setOnePosition(walls, height, width, taxi,
-                    airport, gaz_station, clients)[1]
+                          airport, gaz_station, clients[0])[1]
 
     return clients, gaz_station, airport, taxi
 
 
-def setOnePosition(walls:Grid, height:int, width:int, position_to_change:Grid, *other_positions:Grid):
+def setSeveralPositions(walls: Grid, height: int, width: int, n: int, position_to_change: Grid, *other_positions: Grid):
+
+    is_available = False
+    counter = 0
+    client_positions = []
+    # TODO Put positions only when there still are available places.
+    while not is_available or counter < n:
+        line = random.randint(0, height-1)
+        column = random.randint(0, width-1)
+        i = 0
+        if len(other_positions) > 0:
+            is_available = not walls[line][column] and not other_positions[i][line][column]
+        else:
+            is_available = not walls[line][column]
+        while i < len(other_positions)-1 and is_available:
+            is_available = not walls[line][column] and not other_positions[i+1][line][column]
+            i += 1
+
+        if is_available:
+            position_to_change[line][column] = True
+            client_positions.append((line, column))
+            counter += 1
+
+    return position_to_change, client_positions
+
+
+def setOnePosition(walls: Grid, height: int, width: int, position_to_change: Grid, *other_positions: Grid):
 
     is_available = False
     while not is_available:
         line = random.randint(0, height-1)
         column = random.randint(0, width-1)
         i = 0
-        is_available = not walls[line][column] and not other_positions[i][line][column]
+        if len(other_positions) > 0:
+
+            is_available = not walls[line][column] and not other_positions[i][line][column]
+        else:
+            is_available = not walls[line][column]
 
         while i < len(other_positions)-1 and is_available:
             is_available = not walls[line][column] and not other_positions[i+1][line][column]
@@ -90,11 +120,18 @@ def setOnePosition(walls:Grid, height:int, width:int, position_to_change:Grid, *
 
     return position_to_change, (line, column)
 
-def transformToStr(walls: Grid, clients: Grid, gaz_station: Grid, airport:Grid, taxi:Position, draw_horizon:int, discount:int=1) -> str:
-    grid_str = "\n".join(["".join(["P" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[i][j] else ("G" if gaz_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
-    grid_str+= '\nParameters\ndraw '+str(draw_horizon)+'\ndiscount '+str(discount)+'\nInitPosition\n'+str(taxi)
+
+def transformToStr(walls: Grid, clients: Grid, gaz_station: Grid, airport: Grid, taxi: Position) -> str:
+    grid_str = "\n".join(["".join(["T" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[0][i][j] else (
+        "G" if gaz_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
+    grid_str += f"\n {taxi[0]} {taxi[1]} 0"
+    for i in range(len(clients[1])):
+        grid_str += f"\n {clients[1][i][0]} {clients[1][i][1]}"
     return grid_str
 
+
 if __name__ == '__main__':
-    createLayout(3, 50, 70, "layouts", probability=0.9)
+    createLayout(3, 10, 10, 15, simplified=True,
+                 directory_layout="simplified_layout")
+    createLayout(3, 10, 10, 15)
     pass
