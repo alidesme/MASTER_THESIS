@@ -1,2 +1,4 @@
-# MASTER_THESIS
-Master thesis : Simulation of a taxi using MCTS with advice
+# MASTER THESIS - Simulation of a taxi using MCTS with advice
+## Description
+## Layouts
+## Prism
