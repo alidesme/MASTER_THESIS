@@ -13,20 +13,20 @@ Grid = List[List[bool]]
 Position = Tuple[int, int]
 
 
-def createLayout(number_of_layouts: int, height: int, width: int, number_of_clients: int, fuel_level:int, probability: float = 0.9, simplified: bool = False, directory_layout: str = "layouts") -> None:
+def createLayout(number_of_layouts: int, height: int, width: int, number_of_stops: int, fuel_level: int, probability: float = 0.9, directory_layout: str = "layouts") -> None:
     try:
         os.mkdir(directory_layout)
     except OSError as error:
         print("{0} was not created as it already exists.".format(directory_layout))
     filename = directory_layout+os.sep+'_'+str(height)+'x'+str(width)+'_'
     for i in range(number_of_layouts):
-        file = open(filename+str(i)+".lay", "w+")
+        file = open(filename+str(i)+"_spawn.lay", "w+")
         walls = setWallsPositions(height, width, probability)
-        clients, fuel_station, airport, taxi_position = setOtherPositions(
-            walls, number_of_clients, simplified)
+        stops, fuel_station, airport, taxi_position = setOtherPositions(
+            walls, number_of_stops)
 
-        grid_str = f"{height} {width} {number_of_clients} {fuel_level}\n"
-        grid_str += transformToStr(walls, clients,
+        grid_str = f"{height} {width} {number_of_stops} {fuel_level}\n"
+        grid_str += transformToStr(walls, stops,
                                    fuel_station, airport, taxi_position)
         print(grid_str, file=file)
         file.close()
@@ -51,38 +51,33 @@ def setWallsPositions(height: int, width: int, probability: float = 0.9) -> Grid
     return city_grid
 
 
-def setOtherPositions(walls: Grid, number_of_clients, simplified: bool = False):
+def setOtherPositions(walls: Grid, number_of_clients: int):
     height, width = len(walls), len(walls[0])
     fuel_station = [[False for j in range(width)] for i in range(height)]
     airport = [[False for j in range(width)] for i in range(height)]
     taxi = [[False for j in range(width)] for i in range(height)]
-    clients_start = [[False for j in range(width)] for i in range(height)]
-    clients_destination = [[False for j in range(width)] for i in range(height)]
-
-    clients_start = setSeveralPositions(
-        walls, height, width, number_of_clients, clients_start, clients_start)
+    stops = [[False for j in range(width)] for i in range(height)]
+    
+    stops = setSeveralPositions(
+        walls, height, width, number_of_clients, stops, stops)
 
     fuel_station = setOnePosition(
-        walls, height, width, fuel_station, clients_start[0])[0]
-
-    if (not simplified):
-        airport = setOnePosition(walls, height, width,
-                                 airport, fuel_station, clients_start[0])[0]
+        walls, height, width, fuel_station, stops[0])[0]
+    airport = setOnePosition(walls, height, width,
+                             airport, fuel_station, stops[0])
     taxi = setOnePosition(walls, height, width, taxi,
-                          airport, fuel_station, clients_start[0])[1]
-    clients_destination = setSeveralPositions(
-        walls, height, width, number_of_clients, clients_destination, airport,fuel_station)
+                          airport[0], fuel_station, stops[0])[1]
 
-    return (clients_start,clients_destination) , fuel_station, airport, taxi
+    return stops, fuel_station, airport, taxi
 
 
-def setSeveralPositions(walls: Grid, height: int, width: int, n: int, position_to_change: Grid, *other_positions: Grid):
+def setSeveralPositions(walls: Grid, height: int, width: int, number_of_elems: int, position_to_change: Grid, *other_positions: Grid):
 
     is_available = False
     counter = 0
-    client_positions = []
+    stops_positions = []
     # TODO Put positions only when there still are available places.
-    while not is_available or counter < n:
+    while not is_available or counter < number_of_elems:
         line = random.randint(0, height-1)
         column = random.randint(0, width-1)
         i = 0
@@ -96,11 +91,11 @@ def setSeveralPositions(walls: Grid, height: int, width: int, n: int, position_t
 
         if is_available:
             position_to_change[line][column] = True
-            client_positions.append((line, column))
+            spawn_probability = 1/number_of_elems   # TODO spawn probability to be a distribution over these 15 positions (the values sum up to 1).
+            stops_positions.append((line, column, spawn_probability))
             counter += 1
-    
 
-    return position_to_change, client_positions
+    return position_to_change, stops_positions
 
 
 def setOnePosition(walls: Grid, height: int, width: int, position_to_change: Grid, *other_positions: Grid):
@@ -126,19 +121,20 @@ def setOnePosition(walls: Grid, height: int, width: int, position_to_change: Gri
     return position_to_change, (line, column)
 
 
-def transformToStr(walls: Grid, clients: Grid, fuel_station: Grid, airport: Grid, taxi: Position) -> str:
-    grid_str = "\n".join(["".join(["T" if (i == taxi[0] and j == taxi[1]) else ("%" if walls[i][j] else ("." if clients[0][0][i][j] else (
-        "F" if fuel_station[i][j] else ("A" if airport[i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
-    grid_str += f"\n {taxi[0]} {taxi[1]} 0"
-    for i in range(len(clients[0][1])):
-        grid_str += f"\n {clients[0][1][i][0]} {clients[0][1][i][1]}"
-        grid_str += f" {clients[1][1][i][0]} {clients[1][1][i][1]}"
+def transformToStr(walls: Grid, stops: Grid, fuel_station: Grid, airport: Grid, taxi_position: Position, probability: int = 0.9) -> str:
+   
+    grid_str = "\n".join(["".join(["T" if (i == taxi_position[0] and j == taxi_position[1]) else ("%" if walls[i][j] else ("." if stops[0][i][j] else (
+        "F" if fuel_station[i][j] else ("A" if airport[0][i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
+    grid_str += f"\n {taxi_position[0]} {taxi_position[1]} 1"
+    grid_str += f"\n {airport[1][0]} {airport[1][1]} {probability}"
+
+    for i in range(len(stops[1])):
+        grid_str += f"\n {stops[1][i][0]} {stops[1][i][1]} {stops[1][i][2]}"
     return grid_str
 
 
 if __name__ == '__main__':
-    height, width = 10,10
-    createLayout(3, height, width, 15, (height*width)*10, simplified=True,
-                 directory_layout="simplified_layouts")
+    height, width = 10, 10
+    
     createLayout(3, height, width, 15, (height*width)*10)
     pass
