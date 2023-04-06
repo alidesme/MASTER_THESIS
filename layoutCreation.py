@@ -13,7 +13,7 @@ Grid = List[List[bool]]
 Position = Tuple[int, int]
 
 
-def createLayout(number_of_layouts: int, height: int, width: int, number_of_stops: int, fuel_level: int, probability: float = 0.9, directory_layout: str = "layouts") -> None:
+def createLayout(number_of_layouts: int, height: int, width: int, number_of_stops: int, fuel_level: int, probability: float = 0.9, directory_layout: str ='files'+os.sep+ "layouts") -> None:
     try:
         os.mkdir(directory_layout)
     except OSError as error:
@@ -125,7 +125,7 @@ def transformToStr(walls: Grid, stops: Grid, fuel_station: Grid, airport: Grid, 
    
     grid_str = "\n".join(["".join(["T" if (i == taxi_position[0] and j == taxi_position[1]) else ("%" if walls[i][j] else ("." if stops[0][i][j] else (
         "F" if fuel_station[i][j] else ("A" if airport[0][i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
-    grid_str += f"\n {taxi_position[0]} {taxi_position[1]} 1"
+    # grid_str += f"\n {taxi_position[0]} {taxi_position[1]} 1"
     grid_str += f"\n {airport[1][0]} {airport[1][1]} {probability}"
 
     for i in range(len(stops[1])):
