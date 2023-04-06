@@ -42,6 +42,23 @@ def readFromFile(layout_filename):
     for i in range(X):
         layout_str.append(f.readline().strip('\n'))
         # print(layout_str)
+    # taxi = [[layout_str[i][j] == "T" for j in range(
+        # len(layout_str[i]))] for i in range(len(layout_str))]
+    i = 0
+    j = 0
+    taxi_position_found = False
+    print(layout_str)
+    while i < len(layout_str) and not taxi_position_found:
+        print(i, j)
+        j = 0
+        while j < len(layout_str[0]) and not taxi_position_found:
+            if layout_str[i][j] == "T":
+                taxi_position_found = True
+                taxi = (i, j)
+                print(taxi)
+            j += 1
+        i += 1
+
     walls = [[layout_str[i][j] == "%" for j in range(
         len(layout_str[i]))] for i in range(len(layout_str))]
     stops = [[layout_str[i][j] == "." for j in range(
@@ -59,22 +76,23 @@ def readFromFile(layout_filename):
         else:
             information.append([(int(str_information[0]), int(
                 str_information[1])), float(str_information[2])])
-            # Taxi positions, Airport position & spawn prob, Stops positions &spawn prob
+            # Airport position & spawn prob, Stops positions &spawn prob
     f.close()
-    return (walls, stops, fuel_station, airport, information, number_of_stops, fuel_level)
+    return (taxi, walls, airport, stops, number_of_stops, fuel_station, fuel_level, information)
 
 
 class taxiEngine:
-    def __init__(self, walls, stops, fuel_station, airport, information, number_of_stops, fuel_level, prism_filename=None):
+    def __init__(self, taxi, walls, airport, stops, number_of_stops, fuel_station, fuel_level, information, prism_filename=None):
         self.height = len(walls)
         self.width = len(walls[0])
+        self.taxi = taxi
         self.walls = walls
+        self.airport = airport
         self.stops = stops
+        self.number_of_stops = number_of_stops
         self.fuel_station = fuel_station
         self.fuel_level = fuel_level
-        self.airport = airport
         self.information = information
-        self.number_of_stops = number_of_stops
         self.prism_filename = prism_filename
 
     def _openOutput(self):
@@ -84,7 +102,7 @@ class taxiEngine:
             file = open(self.prism_filename, 'w+')
             self.prism_out = file
 
-    def _initialize(self):
+    def _initialize(self,number_of_clients):
         print('mdp\n', file=self.prism_out)
 
         print(f'int totalFuel = {self.fuel_level};', file=self.prism_out)
@@ -113,6 +131,14 @@ class taxiEngine:
                     f'const int f{i}_{j} = {int(self.fuel_station[i][j])};', file=self.prism_out)
                 print(
                     f'const int a{i}_{j} = {int(self.airport[i][j])};', file=self.prism_out)
+        
+        formulaDistanceX = 'formula east = '
+        formulaWest = 'formula west = '
+        formulaReward = 'formula reward = '
+        for k in range(number_of_clients):
+
+            print(f"formula distanceX_c{k} = max(xs_c{k}-xd_c{k},xd_c{k}-xs_c{k});"+'\n', file= self.prism_out)
+            print(f"formula distanceY_c{k} = max(ys_c{k}-yd_c{k},yd_c{k}-ys_c{k});"+'\n', file=self.prism_out)
 
     def _moduleArbiter(self):
         print('\nmodule arbiter\n', file=self.prism_out)
@@ -120,8 +146,8 @@ class taxiEngine:
         '''
             1 token for jam
             1 token for taxi position
+            1 token for client0
             1 token for client1
-            1 token for client2
             1 token for fuel
             1 token for day
         
@@ -154,7 +180,6 @@ class taxiEngine:
         formulaSouth = 'formula south = '
         formulaEast = 'formula east = '
         formulaWest = 'formula west = '
-        formulaReward = 'formula reward = '
 
         for i in range(self.height):
             for j in range(self.width):
@@ -171,10 +196,6 @@ class taxiEngine:
                 if j > 0:
                     # if there is no wall in the west
                     formulaWest += f'(x{i}_{j} = xt & y{i}_{j} = yt & w{i}_{j-1} = 0) | '
-
-        # if the taxi arrived to the client1's destination or client2's destination
-        formulaReward += f'(xt = xd1 & yt = yd1) | (xt = xd2 & yt = yd2)'+';\n'
-
         # if the taxi is out of fuel
         formulaLoss += f'!(xt = xf & yt = yf) & (totalFuel = 0)'+';\n'
 
@@ -182,27 +203,25 @@ class taxiEngine:
         formulaSouth = formulaSouth[:-3]+';\n'
         formulaEast = formulaEast[:-3]+';\n'
         formulaWest = formulaWest[:-3]+';\n'
-        # formulaReward = formulaReward[:-3]+';\n'
         # formulaLoss = formulaLoss[:-3]+';\n'
         print(formulaNorth, file=self.prism_out)
         print(formulaSouth, file=self.prism_out)
         print(formulaEast, file=self.prism_out)
         print(formulaWest, file=self.prism_out)
-        print(formulaReward, file=self.prism_out)
         print(formulaLoss, file=self.prism_out)
 
     def _jamUpdate(self):
-        print(f'\nmodule jam\n', file=self.prism_out)
+        print(f'\nmodule jamCheck\n', file=self.prism_out)
         print(f'formula day = (timeOfTheDay <= 8);\n', file=self.prism_out)
         print(f'formula pick = ((timeOfTheDay > 8) & (timeOfTheDay <= 14));\n',
               file=self.prism_out)
         print(f'formula night = ((timeOfTheDay > 14) & (timeOfTheDay <= 24));\n',
               file=self.prism_out)
-        print(f'[updateJam] (day) -> 1: jamCounter\' = jamDay;',
+        print(f'[updateJam] (day & jamCounter = 0) -> 1: jamCounter\' = jamDay;',
               file=self.prism_out)
-        print(f'[updateJam] (pick) -> 1: jamCounter\' = jamPick;',
+        print(f'[updateJam] (pick & jamCounter = 0) -> 1: jamCounter\' = jamPick;',
               file=self.prism_out)
-        print(f'[updateJam] (night) -> 1: jamCounter\' = jamNight;',
+        print(f'[updateJam] (night & jamCounter = 0) -> 1: jamCounter\' = jamNight;',
               file=self.prism_out)
         print(f'[updateDay] true -> 1: timeOfTheDay\' = timeOfTheDay + 1;',
               file=self.prism_out)
@@ -210,100 +229,122 @@ class taxiEngine:
               file=self.prism_out)
         print('\nendmodule\n', file=self.prism_out)
 
-    def _moduleTaxi(self):
+    def _moduleTaxi(self, number_of_clients):
         print('\nmodule taxi\n', file=self.prism_out)
-        position_taxi = (self.information[0][0][0], self.information[0][0][1])
+        # position_taxi = (self.information[0][0][0], self.information[0][0][1])
 
         print(
-            f'xt : [1..{self.height-1}] init {position_taxi[0]};', file=self.prism_out)
+            f'xt : [1..{self.height-1}] init {self.taxi[0]};', file=self.prism_out)
         print(
-            f'yt : [1..{self.width-1}] init {position_taxi[1]};\n', file=self.prism_out)
+            f'yt : [1..{self.width-1}] init {self.taxi[1]};\n', file=self.prism_out)
         self._taxiMove()
-        print("[East] (east) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
-        print("[West] (west) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
         print("[North] (north) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt' = xt -1) & (jamCounter'= 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
         print("[South] (south) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt'= xt+1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        print("[East] (east) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        print("[West] (west) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
+
+        formulaClientIn = 'formula clientIn = '
+        for k in range(number_of_clients):
+            formulaClientIn += f'c{k}_in + '
+        formulaClientIn = formulaClientIn[:-3] + ';\n'
+        print(formulaClientIn, file=self.prism_out)
         print(
-            f'[updateFuel] (xf = xt & yf = yt) -> 1: totalFuel = {self.fuel_level};', file=self.prism_out)
+            f'[updateFuel] (clientIn = 0 & (xf = xt & yf = yt)) -> 1: totalFuel = {self.fuel_level};', file=self.prism_out)
+
         # print("[] (win | loss) -> 1 : (end' = true);", file=self.prism_out)
         print('\nendmodule\n', file=self.prism_out)
 
-    def _moduleClient(self, k):
-        print(f'\nmodule client_{k}\n', file=self.prism_out)
-        # temp = copy.deepcopy(self.information[2:])
-        # print(temp)
-        # temp_probability = random.choices(
-        #     temp, weights=[temp[i][1] for i in range(len(temp))], k=len(temp))
-        # random_start_position = random.choice(temp_probability)
-        # # random_start_position = random.choice(temp)
+    def _moduleClient(self, number_of_clients):
+        for k in range(number_of_clients):
+            print(f'\nmodule client_{k}\n', file=self.prism_out)
 
-        # print("?????", random_start_position)
-        # temp.pop(temp.index(random_start_position))
-        random_start_position,random_destination_position = self.setRandomPositions()
+            random_start_position, random_destination_position, random_waiting_time = self.setRandomClientAttributes()
 
-        print(
-            f'xc_{k} : [1..{self.height-1}] init {random_start_position[0]};', file=self.prism_out)
-        print(
-            f'yc_{k} : [1..{self.width-1}] init {random_start_position[1]};\n', file=self.prism_out)
+            print(
+                f'xs_c{k} : [1..{self.height-1}] init {random_start_position[0]};', file=self.prism_out)
+            print(
+                f'ys_c{k} : [1..{self.width-1}] init {random_start_position[1]};\n', file=self.prism_out)
+            print(
+                f'xd_c{k} : [1..{self.height-1}] init {random_destination_position[0]};', file=self.prism_out)
+            print(
+                f'yd_c{k} : [1..{self.width-1}] init {random_destination_position[1]};\n', file=self.prism_out)
+            print(
+                f'c{k}_in : [0..1] init 0;\n', file=self.prism_out)
 
-        # print(f'xd1 : [1..{height-1}] init {random_destination_position[0]};', file=self.prism_out)
-        # print(f'yd1 : [1..{width-1}] init {random_destination_position[1]};\n', file=self.prism_out)
 
-        # TODO Random waiting time ???
-        print(f'int totalWaiting_{k} = 5;', file=self.prism_out)
+            # TODO Random waiting time according to the size of the grid ???
 
-        print(
-            f'formula waiting_{k} = totalWaiting_{k} > 0;\n', file=self.prism_out)
-        print(
-            f'formula riding_{k} = (xc_{k} = xt) & (yc_{k} = yt);\n', file=self.prism_out)
-        print(
-            f'formula reaching_{k} = (xt = {random_destination_position[0]}) &(yt = {random_destination_position[1]});\n', file=self.prism_out)
+            print(
+                f'int totalWaiting_c{k} = {random_waiting_time};', file=self.prism_out)
 
-        print(f'[client_{k}] (waiting_{k}) -> 1: xc_{k}\' = xc_{k} & yc_{k}\' = yc_{k} & totalWaiting_{k}\' = totalWaiting_{k} - 1 ;', file=self.prism_out)
-        print(
-            f'[client_{k}] (riding_{k}) -> 1: xc_{k}\' = xt & yc_{k}\' = yt;', file=self.prism_out)
+            print(
+                f'formula waiting_c{k} = (totalWaiting_c{k} > 0) & (c{k}_in = 0);\n', file=self.prism_out)
+            
+            formulaRiding = f"formula riding_c{k} = (xt = xs_c{k}) & (yt = ys_c{k}) & " 
+            for other_k in range(number_of_clients):
+                if other_k != k:
+                    formulaRiding += f'(c{other_k}_in = 0) & '
+            formulaRiding = formulaRiding[:-3] + ';\n'
+            print(formulaRiding, file=self.prism_out)
+            # if the taxi arrived to the client0's destination or client1's destination
 
-        random_start_position = self.setRandomPositions()[0]
+            print(
+                f'formula reaching_c{k} = (xt = xd_c{k}) & (yt = yd_c{k}) & c{k}_in = 1;\n', file=self.prism_out)
 
-        print(f'[client_{k}] (!(waiting_{k}) & !(riding_{k}) & !(reaching_{k})) | (reaching_{k}) -> 1:xc_{k}={random_start_position[0]} & yc_{k}={random_start_position[1]}& totalWaiting_{k} = 5 ;', file=self.prism_out)
+            print(f'[client_{k}] (waiting_c{k}) -> 1: xs_c{k}\' = xs_c{k} & ys_c{k}\' = ys_c{k} & totalWaiting_c{k}\' = totalWaiting_c{k} - 1 ;', file=self.prism_out)
+            print(
+                f'[client_{k}] (riding_c{k}) -> 1: xs_c{k}\' = xt & ys_c{k}\' = yt & c{k}_in = 1;', file=self.prism_out)
 
-        print('\nendmodule\n', file=self.prism_out)
+            random_start_position, random_destination_position, random_waiting_time = self.setRandomClientAttributes()
 
-    def setRandomPositions(self):
-        temp = copy.deepcopy(self.information[2:])
+            print(f'[client_{k}] (reaching_c{k}) -> 1: xs_c{k}\' = {random_start_position[0]} & ys_c{k}\' = {random_start_position[1]} & totalWaiting_c{k}\' = {random_waiting_time} & c{k}_in\' = 0 ;', file=self.prism_out)
+
+            print('\nendmodule\n', file=self.prism_out)
+    
+    def _rewards(self, number_of_clients):
+        print('rewards', file=self.prism_out)
+        for k in range(number_of_clients): 
+            print(f'(reaching_c{k}): distanceX_c{k} + distanceY_c{k};', file=self.prism_out)
+        print('endrewards\n', file=self.prism_out)
+  
+    def setRandomClientAttributes(self):
+        temp = copy.deepcopy(self.information)
         temp_probability = random.choices(
             temp, weights=[temp[i][1] for i in range(len(temp))], k=len(temp))
         random_start_position = random.choice(temp_probability)
 
         temp.pop(temp.index(random_start_position))
         random_start_position = random_start_position[0]
-        random_destination_position = random.choice(temp)[0]
-        return random_start_position, random_destination_position
+        random_destination_position = random.choice(
+            temp)[0]  # TODO airport not in destination?
+        random_waiting_time = random.randrange(3, 10)
+
+        return random_start_position, random_destination_position, random_waiting_time
 
     def createPrismFilefFromGrids(self):
+        number_of_clients = 2
         self._openOutput()
-        self._initialize()
+        self._initialize(number_of_clients)
         self._jamUpdate()
         self._moduleArbiter()
-
-        self._moduleTaxi()
-        for k in range(2):
-            self._moduleClient(k)
+        self._moduleTaxi(number_of_clients)
+        self._moduleClient(number_of_clients)
+        self._rewards(number_of_clients)
         return (self.prism_filename)
 
 
 def createEngine(layout_filename):
-    walls, stops, fuel_station, airport, information, number_of_stops, fuel_level = readFromFile(
+    taxi, walls, airport, stops, number_of_stops, fuel_station, fuel_level, information = readFromFile(
         layout_filename)
     prism_filename = TEMP_DIR+os.sep+str(os.getpid())+f'_{number_of_stops}.nm'
-    t = taxiEngine(walls, stops, fuel_station, airport,
-                   information, number_of_stops, fuel_level, prism_filename)
+    t = taxiEngine(taxi, walls, airport, stops, number_of_stops,
+                   fuel_station, fuel_level, information, prism_filename)
     t.createPrismFilefFromGrids()
 
 
     # print(t)
 if __name__ == '__main__':
-    createEngine("layouts/_10x10_0_spawn.lay")
+    createEngine("files/layouts/_10x10_0_spawn.lay")
     pass
 
     # print('\nmodule client2\n', file=self.prism_out)
@@ -315,8 +356,8 @@ if __name__ == '__main__':
     # print(f'xc2 : [1..{height-1}] init {random_start_position[0]};', file=self.prism_out)
     # print(f'yc2 : [1..{width-1}] init {random_start_position[1]};\n', file=self.prism_out)
 
-    # # print(f'xd1 : [1..{height-1}] init {random_destination_position[0]};', file=self.prism_out)
-    # # print(f'yd1 : [1..{width-1}] init {random_destination_position[1]};\n', file=self.prism_out)
+    # # print(f'xd_c1 : [1..{height-1}] init {random_destination_position[0]};', file=self.prism_out)
+    # # print(f'yd_c1 : [1..{width-1}] init {random_destination_position[1]};\n', file=self.prism_out)
 
     # print(f'int totalWaiting2 = 5;', file=self.prism_out)  #TODO Random waiting time ???
 
