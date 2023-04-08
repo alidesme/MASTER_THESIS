@@ -131,18 +131,20 @@ class taxiEngine:
                     f'const int f{i}_{j} = {int(self.fuel_station[i][j])};', file=self.prism_out)
                 print(
                     f'const int a{i}_{j} = {int(self.airport[i][j])};', file=self.prism_out)
-        
-        formulaDistanceX = 'formula east = '
-        formulaWest = 'formula west = '
-        formulaReward = 'formula reward = '
+
+        formulaBusy = 'formula busy = '
+            
         for k in range(number_of_clients):
 
-            print(f"formula distanceX_c{k} = max(xs_c{k}-xd_c{k},xd_c{k}-xs_c{k});"+'\n', file= self.prism_out)
+            print('\n'+f"formula distanceX_c{k} = max(xs_c{k}-xd_c{k},xd_c{k}-xs_c{k});", file= self.prism_out)
             print(f"formula distanceY_c{k} = max(ys_c{k}-yd_c{k},yd_c{k}-ys_c{k});"+'\n', file=self.prism_out)
+            formulaBusy += f'c{k}_in + '
+        formulaBusy = formulaBusy[:-3] + ';\n'
+        print(formulaBusy, file=self.prism_out)
 
     def _moduleArbiter(self):
         print('\nmodule arbiter\n', file=self.prism_out)
-        print(f'token : [0 .. 6] init 0;', file=self.prism_out)
+        print(f'token : [0 .. 5] init 0;', file=self.prism_out)
         '''
             1 token for jam
             1 token for taxi position
@@ -153,23 +155,23 @@ class taxiEngine:
         
             '''
 
-        print('[updateJam] (token = 1) -> 1: (token\' = 2);', file=self.prism_out)
+        print('[updateJam] (token = 0) -> 1: (token\' = 1);', file=self.prism_out)
 
         print('', file=self.prism_out)
-        print('[East] (token = 2) -> 1: (token\' = 3);', file=self.prism_out)
-        print('[West] (token = 2) -> 1: (token\' = 3);', file=self.prism_out)
-        print('[North] (token = 2) -> 1: (token\' = 3);', file=self.prism_out)
-        print('[South] (token = 2) -> 1: (token\' = 3);', file=self.prism_out)
+        print('[North] (token = 1) -> 1: (token\' = 2);', file=self.prism_out)
+        print('[South] (token = 1) -> 1: (token\' = 2);', file=self.prism_out)
+        print('[East] (token = 1) -> 1: (token\' = 2);', file=self.prism_out)
+        print('[West] (token = 1) -> 1: (token\' = 2);', file=self.prism_out)
 
         print('', file=self.prism_out)
-        print('[client0] (token = 3) -> 1: (token\' = 4);', file=self.prism_out)
-        print('[client1] (token = 4) -> 1: (token\' = 5);', file=self.prism_out)
+        print('[client0] (token = 2) -> 1: (token\' = 3);', file=self.prism_out)
+        print('[client1] (token = 3) -> 1: (token\' = 4);', file=self.prism_out)
 
         print('', file=self.prism_out)
-        print('[updateFuel] (token = 5) -> 1: (token\' = 6);', file=self.prism_out)
+        print('[updateFuel] (token = 4) -> 1: (token\' = 5);', file=self.prism_out)
 
         print('', file=self.prism_out)
-        print('[updateDay] (token = 6) -> 1: (token\' = 0);', file=self.prism_out)
+        print('[updateDay] (token = 5) -> 1: (token\' = 0);', file=self.prism_out)
 
         print('\nendmodule\n', file=self.prism_out)
 
@@ -226,10 +228,10 @@ class taxiEngine:
         print(f'[updateDay] true -> 1: timeOfTheDay\' = timeOfTheDay + 1;',
               file=self.prism_out)
         print(f'formula jam = ((day | pick | night) & jamCounter > 0);\n',
-              file=self.prism_out)
+              file=self.prism_out)  # TODO Is "jam" accessible in other module ?
         print('\nendmodule\n', file=self.prism_out)
 
-    def _moduleTaxi(self, number_of_clients):
+    def _moduleTaxi(self):
         print('\nmodule taxi\n', file=self.prism_out)
         # position_taxi = (self.information[0][0][0], self.information[0][0][1])
 
@@ -238,18 +240,14 @@ class taxiEngine:
         print(
             f'yt : [1..{self.width-1}] init {self.taxi[1]};\n', file=self.prism_out)
         self._taxiMove()
-        print("[North] (north) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt' = xt -1) & (jamCounter'= 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
-        print("[South] (south) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt'= xt+1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
-        print("[East] (east) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
-        print("[West] (west) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
-
-        formulaClientIn = 'formula clientIn = '
-        for k in range(number_of_clients):
-            formulaClientIn += f'c{k}_in + '
-        formulaClientIn = formulaClientIn[:-3] + ';\n'
-        print(formulaClientIn, file=self.prism_out)
+        print("formula fuelOK = totalFuel >= 1;", file=self.prism_out)
+        print("[North] (north) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (xt' = xt -1) & (jamCounter'= 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        print("[South] (south) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (xt'= xt+1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        print("[East] (east) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        print("[West] (west) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);", file=self.prism_out)
+        
         print(
-            f'[updateFuel] (clientIn = 0 & (xf = xt & yf = yt)) -> 1: totalFuel = {self.fuel_level};', file=self.prism_out)
+            f'[updateFuel] (busy = 0 & (xf = xt & yf = yt)) -> 1: totalFuel = {self.fuel_level};', file=self.prism_out)
 
         # print("[] (win | loss) -> 1 : (end' = true);", file=self.prism_out)
         print('\nendmodule\n', file=self.prism_out)
@@ -280,12 +278,14 @@ class taxiEngine:
             print(
                 f'formula waiting_c{k} = (totalWaiting_c{k} > 0) & (c{k}_in = 0);\n', file=self.prism_out)
             
+            
             formulaRiding = f"formula riding_c{k} = (xt = xs_c{k}) & (yt = ys_c{k}) & " 
             for other_k in range(number_of_clients):
                 if other_k != k:
                     formulaRiding += f'(c{other_k}_in = 0) & '
             formulaRiding = formulaRiding[:-3] + ';\n'
-            print(formulaRiding, file=self.prism_out)
+            print(formulaRiding, file=self.prism_out) 
+
             # if the taxi arrived to the client0's destination or client1's destination
 
             print(
@@ -312,11 +312,12 @@ class taxiEngine:
         temp_probability = random.choices(
             temp, weights=[temp[i][1] for i in range(len(temp))], k=len(temp))
         random_start_position = random.choice(temp_probability)
-
-        temp.pop(temp.index(random_start_position))
+        position_to_pop = temp.index(random_start_position)
+        temp.pop(position_to_pop)
         random_start_position = random_start_position[0]
+        is_airport = position_to_pop == 0
         random_destination_position = random.choice(
-            temp)[0]  # TODO airport not in destination?
+            temp[is_airport:])[0]  # TODO airport NOT in destination
         random_waiting_time = random.randrange(3, 10)
 
         return random_start_position, random_destination_position, random_waiting_time
@@ -326,9 +327,9 @@ class taxiEngine:
         self._openOutput()
         self._initialize(number_of_clients)
         self._jamUpdate()
-        self._moduleArbiter()
-        self._moduleTaxi(number_of_clients)
+        self._moduleTaxi()
         self._moduleClient(number_of_clients)
+        self._moduleArbiter()
         self._rewards(number_of_clients)
         return (self.prism_filename)
 

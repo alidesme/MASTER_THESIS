@@ -606,13 +606,15 @@ const int w9_9 = 1;
 const int s9_9 = 0;
 const int f9_9 = 0;
 const int a9_9 = 0;
-formula distanceX_c0 = max(xs_c0-xd_c0,xd_c0-xs_c0);
 
+formula distanceX_c0 = max(xs_c0-xd_c0,xd_c0-xs_c0);
 formula distanceY_c0 = max(ys_c0-yd_c0,yd_c0-ys_c0);
 
-formula distanceX_c1 = max(xs_c1-xd_c1,xd_c1-xs_c1);
 
+formula distanceX_c1 = max(xs_c1-xd_c1,xd_c1-xs_c1);
 formula distanceY_c1 = max(ys_c1-yd_c1,yd_c1-ys_c1);
+
+formula busy = c0_in + c1_in;
 
 
 module jamCheck
@@ -633,26 +635,6 @@ formula jam = ((day | pick | night) & jamCounter > 0);
 endmodule
 
 
-module arbiter
-
-token : [0 .. 6] init 0;
-[updateJam] (token = 1) -> 1: (token' = 2);
-
-[East] (token = 2) -> 1: (token' = 3);
-[West] (token = 2) -> 1: (token' = 3);
-[North] (token = 2) -> 1: (token' = 3);
-[South] (token = 2) -> 1: (token' = 3);
-
-[client0] (token = 3) -> 1: (token' = 4);
-[client1] (token = 4) -> 1: (token' = 5);
-
-[updateFuel] (token = 5) -> 1: (token' = 6);
-
-[updateDay] (token = 6) -> 1: (token' = 0);
-
-endmodule
-
-
 module taxi
 
 xt : [1..9] init 1;
@@ -668,28 +650,27 @@ formula west = (x0_1 = xt & y0_1 = yt & w0_0 = 0) | (x0_2 = xt & y0_2 = yt & w0_
 
 formula loss = !(xt = xf & yt = yf) & (totalFuel = 0);
 
-[North] (north) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt' = xt -1) & (jamCounter'= 0) & (totalFuel' = totalFuel-1);
-[South] (south) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (xt'= xt+1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);
-[East] (east) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);
-[West] (west) -> jam: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + !(jam): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);
-formula clientIn = c0_in + c1_in;
-
-[updateFuel] (clientIn = 0 & (xf = xt & yf = yt)) -> 1: totalFuel = 1000;
+formula fuelOK = totalFuel >= 1;
+[North] (north) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (xt' = xt -1) & (jamCounter'= 0) & (totalFuel' = totalFuel-1);
+[South] (south) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (xt'= xt+1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);
+[East] (east) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (yt'=yt+1) & (jamCounter' = 0) & (totalFuel' = totalFuel-1);
+[West] (west) -> (jam & fuelOK): (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + (!(jam) & fuelOK): (yt'=yt-1) & (jamCounter' = 0)  & (totalFuel' = totalFuel-1);
+[updateFuel] (busy = 0 & (xf = xt & yf = yt)) -> 1: totalFuel = 1000;
 
 endmodule
 
 
 module client_0
 
-xs_c0 : [1..9] init 6;
-ys_c0 : [1..9] init 7;
+xs_c0 : [1..9] init 1;
+ys_c0 : [1..9] init 2;
 
 xd_c0 : [1..9] init 2;
-yd_c0 : [1..9] init 7;
+yd_c0 : [1..9] init 5;
 
 c0_in : [0..1] init 0;
 
-int totalWaiting_c0 = 6;
+int totalWaiting_c0 = 8;
 formula waiting_c0 = (totalWaiting_c0 > 0) & (c0_in = 0);
 
 formula riding_c0 = (xt = xs_c0) & (yt = ys_c0) & (c1_in = 0);
@@ -698,7 +679,7 @@ formula reaching_c0 = (xt = xd_c0) & (yt = yd_c0) & c0_in = 1;
 
 [client_0] (waiting_c0) -> 1: xs_c0' = xs_c0 & ys_c0' = ys_c0 & totalWaiting_c0' = totalWaiting_c0 - 1 ;
 [client_0] (riding_c0) -> 1: xs_c0' = xt & ys_c0' = yt & c0_in = 1;
-[client_0] (reaching_c0) -> 1: xs_c0' = 6 & ys_c0' = 7 & totalWaiting_c0' = 4 & c0_in' = 0 ;
+[client_0] (reaching_c0) -> 1: xs_c0' = 6 & ys_c0' = 1 & totalWaiting_c0' = 9 & c0_in' = 0 ;
 
 endmodule
 
@@ -708,12 +689,12 @@ module client_1
 xs_c1 : [1..9] init 6;
 ys_c1 : [1..9] init 7;
 
-xd_c1 : [1..9] init 7;
-yd_c1 : [1..9] init 7;
+xd_c1 : [1..9] init 1;
+yd_c1 : [1..9] init 2;
 
 c1_in : [0..1] init 0;
 
-int totalWaiting_c1 = 8;
+int totalWaiting_c1 = 9;
 formula waiting_c1 = (totalWaiting_c1 > 0) & (c1_in = 0);
 
 formula riding_c1 = (xt = xs_c1) & (yt = ys_c1) & (c0_in = 0);
@@ -722,7 +703,27 @@ formula reaching_c1 = (xt = xd_c1) & (yt = yd_c1) & c1_in = 1;
 
 [client_1] (waiting_c1) -> 1: xs_c1' = xs_c1 & ys_c1' = ys_c1 & totalWaiting_c1' = totalWaiting_c1 - 1 ;
 [client_1] (riding_c1) -> 1: xs_c1' = xt & ys_c1' = yt & c1_in = 1;
-[client_1] (reaching_c1) -> 1: xs_c1' = 1 & ys_c1' = 5 & totalWaiting_c1' = 5 & c1_in' = 0 ;
+[client_1] (reaching_c1) -> 1: xs_c1' = 6 & ys_c1' = 7 & totalWaiting_c1' = 8 & c1_in' = 0 ;
+
+endmodule
+
+
+module arbiter
+
+token : [0 .. 5] init 0;
+[updateJam] (token = 0) -> 1: (token' = 1);
+
+[North] (token = 1) -> 1: (token' = 2);
+[South] (token = 1) -> 1: (token' = 2);
+[East] (token = 1) -> 1: (token' = 2);
+[West] (token = 1) -> 1: (token' = 2);
+
+[client0] (token = 2) -> 1: (token' = 3);
+[client1] (token = 3) -> 1: (token' = 4);
+
+[updateFuel] (token = 4) -> 1: (token' = 5);
+
+[updateDay] (token = 5) -> 1: (token' = 0);
 
 endmodule
 
