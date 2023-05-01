@@ -378,7 +378,7 @@ def getValue(prismFile,formula_str = "Pmax=? [F (reaching_c0|reaching_c1)]"): #T
 	gc.collect()
 	return(value)
 if __name__ == '__main__':
-    p = createEngine("files/layouts/_10x10_0_spawn.lay")
-    print(getValue(p))
-    # print(getValue("files/prism/520258_15.nm"))
+    # p = createEngine("files/layouts/_10x10_0_spawn.lay")
+    # print(getValue(p))
+    print(getValue("files/prism/73069_15.nm"))
     pass  
