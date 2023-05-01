@@ -114,6 +114,9 @@ class taxiEngine:
         print(f'const int jamPick = 4;', file=self.prism_out)  # 4
         print(f'const int jamNight = 1;\n', file=self.prism_out)  # 1
 
+        print(f'const int xf = {self.fuel_position[0]};', file=self.prism_out)
+        print(f'const int yf = {self.fuel_position[1]};\n', file=self.prism_out)
+
         for i in range(self.height):
             for j in range(self.width):
                 """
@@ -132,7 +135,7 @@ class taxiEngine:
                     f'const int f{i}_{j} = {int(self.fuel_station[i][j])};', file=self.prism_out)
                 print(
                     f'const int a{i}_{j} = {int(self.airport[i][j])};', file=self.prism_out)
-
+                
         formulaBusy = 'formula busy = '
             
         for k in range(self.number_of_clients):
@@ -280,10 +283,6 @@ class taxiEngine:
             f'xt : [1..{self.height-1}] init {self.taxi[0]};', file=self.prism_out)
         print(
             f'yt : [1..{self.width-1}] init {self.taxi[1]};\n', file=self.prism_out)
-        print(
-            f'xf : int init {self.fuel_position[0]};\n', file=self.prism_out)
-        print(
-            f'yf : int init {self.fuel_position[1]};\n', file=self.prism_out)
         self._jamUpdate()
 
         print("[North] (north) -> jam_int * fuelOK: (jamCounter' = jamCounter - 1) & (totalFuel' = totalFuel-1) + ((1 - jam_int) * fuelOK): (xt' = xt - 1) & (jamCounter' = 0) & (totalFuel' = totalFuel - 1);", file=self.prism_out)
@@ -365,7 +364,7 @@ def createEngine(layout_filename):
                    fuel_station, fuel_position, fuel_level, information, prism_filename)
     return t.createPrismFilefFromGrids()
 
-def getValue(prismFile,formula_str = "Pmax=? [F (reaching_c0|reaching_c1]"): #TODO What to satisfy ?
+def getValue(prismFile,formula_str = "Pmax=? [F (reaching_c0|reaching_c1)]"): #TODO What to satisfy ?
 	prism_program = stormpy.parse_prism_program(prismFile)
 	properties = stormpy.parse_properties(formula_str, prism_program)
 	model = stormpy.build_model(prism_program, properties)
@@ -379,7 +378,7 @@ def getValue(prismFile,formula_str = "Pmax=? [F (reaching_c0|reaching_c1]"): #TO
 	gc.collect()
 	return(value)
 if __name__ == '__main__':
-    # p = createEngine("files/layouts/_10x10_0_spawn.lay")
-    # print(getValue(p))
-    print(getValue("files/prism/520258_15.nm"))
+    p = createEngine("files/layouts/_10x10_0_spawn.lay")
+    print(getValue(p))
+    # print(getValue("files/prism/520258_15.nm"))
     pass  

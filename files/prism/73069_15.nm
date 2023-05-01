@@ -8,6 +8,9 @@ const int jamDay = 2;
 const int jamPick = 4;
 const int jamNight = 1;
 
+const int xf = 4;
+const int yf = 7;
+
 const int x0_0 = 0;
 const int y0_0 = 0;
 const int w0_0 = 1;
@@ -627,12 +630,12 @@ formula jam_int = (jam)?1:0;
 
 formula fuelOK = (totalFuel >= 1)?1:0;
 
-global totalWaiting_c0 : int init 8;
+global totalWaiting_c0 : int init 3;
 formula waiting_c0 = (totalWaiting_c0 > 0) & (c0_in = 0);
 formula riding_c0 = (xt = xs_c0) & (yt = ys_c0) & (c1_in = 0);
 formula reaching_c0 = (xt = xd_c0) & (yt = yd_c0) & (c0_in = 1);
 
-global totalWaiting_c1 : int init 5;
+global totalWaiting_c1 : int init 4;
 formula waiting_c1 = (totalWaiting_c1 > 0) & (c1_in = 0);
 formula riding_c1 = (xt = xs_c1) & (yt = ys_c1) & (c0_in = 0);
 formula reaching_c1 = (xt = xd_c1) & (yt = yd_c1) & (c1_in = 1);
@@ -648,10 +651,6 @@ module taxi
 
 xt : [1..9] init 1;
 yt : [1..9] init 6;
-
-xf : int init 4;
-
-yf : int init 7;
 
 [updateJam] (day & jamCounter = 0) -> 1: (jamCounter' = jamDay);
 [updateJam] (pick & jamCounter = 0) -> 1: (jamCounter' = jamPick);
@@ -669,16 +668,16 @@ endmodule
 module client_0
 
 xs_c0 : [1..9] init 3;
-ys_c0 : [1..9] init 2;
+ys_c0 : [1..9] init 5;
 
-xd_c0 : [1..9] init 1;
-yd_c0 : [1..9] init 5;
+xd_c0 : [1..9] init 3;
+yd_c0 : [1..9] init 2;
 
 c0_in : [0..1] init 0;
 
 [client_0] (waiting_c0) -> 1: (xs_c0' = xs_c0) & (ys_c0' =  ys_c0) & (totalWaiting_c0' = totalWaiting_c0 - 1);
 [client_0] (riding_c0) -> 1: (xs_c0' = xt) & (ys_c0' = yt) & (c0_in' = 1);
-[client_0] (reaching_c0) -> 1: (xs_c0' = 8) & (ys_c0' = 3) & (totalWaiting_c0' = 4) & (c0_in' = 0);
+[client_0] (reaching_c0) -> 1: (xs_c0' = 6) & (ys_c0' = 7) & (totalWaiting_c0' = 9) & (c0_in' = 0);
 
 endmodule
 
@@ -686,16 +685,16 @@ endmodule
 module client_1
 
 xs_c1 : [1..9] init 6;
-ys_c1 : [1..9] init 1;
+ys_c1 : [1..9] init 7;
 
 xd_c1 : [1..9] init 1;
-yd_c1 : [1..9] init 2;
+yd_c1 : [1..9] init 5;
 
 c1_in : [0..1] init 0;
 
 [client_1] (waiting_c1) -> 1: (xs_c1' = xs_c1) & (ys_c1' =  ys_c1) & (totalWaiting_c1' = totalWaiting_c1 - 1);
 [client_1] (riding_c1) -> 1: (xs_c1' = xt) & (ys_c1' = yt) & (c1_in' = 1);
-[client_1] (reaching_c1) -> 1: (xs_c1' = 6) & (ys_c1' = 7) & (totalWaiting_c1' = 5) & (c1_in' = 0);
+[client_1] (reaching_c1) -> 1: (xs_c1' = 6) & (ys_c1' = 7) & (totalWaiting_c1' = 7) & (c1_in' = 0);
 
 endmodule
 
