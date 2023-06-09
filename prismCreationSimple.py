@@ -129,7 +129,7 @@ class taxiEngine:
             print(
                 '\n'+f"formula distanceX_c{k} = max(xs_c{k}-xd_c{k},xd_c{k}-xs_c{k});", file=self.prism_out)
             print(
-                f"formula distanceY_c{k} = max(ys_c{k}-yd_c{k},yd_c{k}-ys_c{k});", file=self.prism_out)
+                f"formula distanceY_c{k} = max(ys_c{k}-yd_c{k},yd_c{k}-ys_c{k});\n", file=self.prism_out)
             formulaBusy += f'c{k}_in + '
         formulaBusy = formulaBusy[:-3] + ';\n'
         print(formulaBusy, file=self.prism_out)
@@ -273,7 +273,7 @@ class taxiEngine:
             print(
                 f'[pick_{k}] (c{k}_in = 1) -> (xc_c{k}\' = xt) & (yc_c{k}\' = yt);', file=self.prism_out)
             print(
-                f'[pick_{k}] (c{k}_in = 0) -> (xc_c{k}\' = xs_c{k}) & (yc_c{k}\' = ys_c{k});', file=self.prism_out)
+                f'[pick_{k}] (c{k}_in = 0) -> (xc_c{k}\' = xs_c{k}) & (yc_c{k}\' = ys_c{k});\n', file=self.prism_out)
 
             print(
                 f'[client_{k}] (waiting_c{k})  -> 1: (totalWaiting_c{k}\' = totalWaiting_c{k} - 1);', file=self.prism_out)
@@ -282,7 +282,7 @@ class taxiEngine:
 
             print(f'[client_{k}] (reaching_c{k} | totalWaiting_c{k} = 0) -> ' +
                   self.setClientNewPositions(k), file=self.prism_out)
-            
+
             print(f'[client_{k}] !(waiting_c{k}) & !(picking_c{k}) & !(reaching_c{k}) -> 1: (xs_c{k}\' = xs_c{k}) & (ys_c{k}\' = ys_c{k}) & (xd_c{k}\' = xd_c{k}) & (yd_c{k}\' = yd_c{k}) & (xc_c{k}\' = xc_c{k}) & (yc_c{k}\' = yc_c{k});', file=self.prism_out)
             # TODO redundacy ... must simplify bc same as c0 in
             print('\nendmodule\n', file=self.prism_out)
@@ -302,7 +302,7 @@ class taxiEngine:
             client_position += f'(totalWaiting_c{k}\' = {random_waiting_time}) + '
 
         # print("???3  ", client_position[:3]+'\n')
-        return client_position[:-3]+';\n'
+        return client_position[:-3]+';'
 
     def setRandomClientAttributes(self):
         temp = copy.deepcopy(self.information)
@@ -348,7 +348,7 @@ def createEngine(layout_filename):
 
 
 # TODO What to satisfy ? #  R{"r"}max=? [F ((busy=1) )]"Rmax=? [LRA]"& (((1-jam_int) * fuelOK)= 1) & jamCounter = 0 &
-def getValue(prismFile, formula_str='Pmax=?  [F (busy=1)]'):
+def getValue(prismFile, formula_str='R{"r"}max=? [F (reaching_c0 | reaching_c1)]'):
     prism_program = stormpy.parse_prism_program(prismFile)
     properties = stormpy.parse_properties(formula_str, prism_program)
 
@@ -366,10 +366,10 @@ def getValue(prismFile, formula_str='Pmax=?  [F (busy=1)]'):
 
 
 if __name__ == '__main__':
-    # p = createEngine("files/layouts/_10x10_0_spawn.lay")
+    # p = createEngine("files/layouts/_5x5_0_spawn.lay")
     # print(getValue(p))
-    print(getValue("files/prismS/53734_3.nm"))  # VERY SIMPLE
+    # print(getValue("files/prismS/53734_3.nm"))  # VERY SIMPLE
     # print(getValue("files/prismS/315509_3.nm"))
-    # print(getValue("files/prismS/1376154_3.nm))  # With waiting times
+    print(getValue("files/prismS/1410337_3.nm"))  # With waiting times
 
     pass
