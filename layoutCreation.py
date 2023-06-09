@@ -51,7 +51,7 @@ def setWallsPositions(height: int, width: int, probability: float = 0.9) -> Grid
     return city_grid
 
 
-def setOtherPositions(walls: Grid, number_of_clients: int):
+def setOtherPositions(walls: Grid, number_of_stops: int):
     height, width = len(walls), len(walls[0])
     fuel_station = [[False for j in range(width)] for i in range(height)]
     airport = [[False for j in range(width)] for i in range(height)]
@@ -59,7 +59,7 @@ def setOtherPositions(walls: Grid, number_of_clients: int):
     stops = [[False for j in range(width)] for i in range(height)]
     
     stops = setSeveralPositions(
-        walls, height, width, number_of_clients, stops, stops)
+        walls, height, width, number_of_stops, stops, stops)
 
     fuel_station = setOnePosition(
         walls, height, width, fuel_station, stops[0])[0]
@@ -91,11 +91,28 @@ def setSeveralPositions(walls: Grid, height: int, width: int, number_of_elems: i
 
         if is_available:
             position_to_change[line][column] = True
-            spawn_probability = 1/number_of_elems   # TODO spawn probability to be a distribution over these 15 positions (the values sum up to 1).
-            stops_positions.append((line, column, spawn_probability))
+            #OK  TODO spawn probability to be a distribution over these 15 positions (the values sum up to 1).
+            stops_positions.append((line, column))
             counter += 1
 
     return position_to_change, stops_positions
+
+def distribute_probabilities(x)-> List:
+    probabilities = []
+    remaining_probability = 1.0
+
+    # Generate random probabilities for x positions
+    for i in range(x - 1):
+        # Generate a random probability between 0 and the remaining probability
+        probability = random.uniform(0, remaining_probability)
+        probabilities.append(probability)
+        remaining_probability -= probability
+
+    # The last position gets the remaining probability
+    probabilities.append(remaining_probability)
+
+    
+    return probabilities
 
 
 def setOnePosition(walls: Grid, height: int, width: int, position_to_change: Grid, *other_positions: Grid):
@@ -126,10 +143,15 @@ def transformToStr(walls: Grid, stops: Grid, fuel_station: Grid, airport: Grid, 
     grid_str = "\n".join(["".join(["T" if (i == taxi_position[0] and j == taxi_position[1]) else ("%" if walls[i][j] else ("." if stops[0][i][j] else (
         "F" if fuel_station[i][j] else ("A" if airport[0][i][j] else " ")))) for j in range(len(walls[i]))]) for i in range(len(walls))])
     # grid_str += f"\n {taxi_position[0]} {taxi_position[1]} 1"
-    grid_str += f"\n {airport[1][0]} {airport[1][1]} {probability}"
+    probabilities = distribute_probabilities(len(stops[1])+ 1)
+    print("==>", sum(probabilities))
+    probabilities.sort()
+    spawn_probability = probabilities.pop()  
+    grid_str += f"\n {airport[1][0]} {airport[1][1]} {spawn_probability}"
+    random.shuffle(probabilities)
 
     for i in range(len(stops[1])):
-        grid_str += f"\n {stops[1][i][0]} {stops[1][i][1]} {stops[1][i][2]}"
+        grid_str += f"\n {stops[1][i][0]} {stops[1][i][1]} {probabilities[i]}"
     return grid_str
 
 
@@ -137,4 +159,5 @@ if __name__ == '__main__':
     height, width = 5, 5
     
     createLayout(3, height, width, 3, (height*width)*10)
+
     pass
