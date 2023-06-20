@@ -12,7 +12,7 @@ import random
 import copy
 
 
-TEMP_DIR = 'files'+os.sep+'prismS'
+TEMP_DIR = 'files'+os.sep+'prismSWaitingTimes'
 # os.mkdir(TEMP_DIR)
 if not os.path.isdir(TEMP_DIR):
     try:
@@ -370,6 +370,6 @@ if __name__ == '__main__':
     # print(getValue(p))
     # print(getValue("files/prismS/53734_3.nm"))  # VERY SIMPLE
     # print(getValue("files/prismS/315509_3.nm"))
-    print(getValue("files/prismS/90290_3.nm"))  # With waiting times
+    print(getValue("files/prismSWaitingTimes/1410337_3.nm"))  # With waiting times
 
     pass
