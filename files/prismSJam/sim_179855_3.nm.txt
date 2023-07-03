@@ -1,0 +1,4527 @@
+-------------------------------------------------------------- 
+Model type: 	MDP (sparse)
+States: 	137802
+Transitions: 	163015
+Choices: 	161179
+Reward Models:  r
+State Labels: 	2 labels
+   * deadlock -> 0 item(s)
+   * init -> 1 item(s)
+Choice Labels: 	10 labels
+   * updateJam -> 18581 item(s)
+   * updateDay -> 18581 item(s)
+   * South -> 9599 item(s)
+   * East -> 11819 item(s)
+   * pick_0 -> 24089 item(s)
+   * pick_1 -> 21029 item(s)
+   * client_1 -> 18360 item(s)
+   * West -> 11602 item(s)
+   * client_0 -> 18581 item(s)
+   * North -> 8938 item(s)
+-------------------------------------------------------------- 
+
+Time of the day: 0 	Counter of jam: -1 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+--updateJam-->
+
+Time of the day: 0 	Counter of jam: 2 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 3 	Counter of jam: 2 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 6 	Counter of jam: 2 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 9 	Counter of jam: 3 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 13 	Counter of jam: 3 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 17 	Counter of jam: 1 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 19 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 21 	Counter of jam: 1 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 23 	Counter of jam: 1 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Counter of jam: 0 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 0 	Counter of jam: 0 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Counter of jam: -1 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 1 	Counter of jam: 2 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Counter of jam: 1 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 2 	Counter of jam: 1 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Counter of jam: 0 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 3 	Counter of jam: 0 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 1.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 4 	Counter of jam: 2 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Counter of jam: 1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 5 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 6 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Counter of jam: -1 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 7 	Counter of jam: 2 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Counter of jam: 1 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 8 	Counter of jam: 1 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Counter of jam: 0 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 9 	Counter of jam: 0 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 1.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (2,2) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (2,2) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (2,2) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 10 	Counter of jam: 3 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (2,2) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (2,2) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Counter of jam: 2 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 11 	Counter of jam: 2 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Counter of jam: 1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 12 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 13 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Counter of jam: -1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 14 	Counter of jam: 3 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Counter of jam: 2 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 15 	Counter of jam: 2 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Counter of jam: 1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 16 	Counter of jam: 1 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 18 	Counter of jam: 1 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 20 	Counter of jam: 1 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 22 	Counter of jam: 1 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Counter of jam: -1 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 0 	Counter of jam: 2 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 0 	Counter of jam: 1 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 1 	Counter of jam: 1 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 1 	Counter of jam: 0 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 2 	Counter of jam: 0 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 2 	Counter of jam: -1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Counter of jam: -1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 3 	Counter of jam: 2 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 3 	Counter of jam: 1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 4 	Counter of jam: 1 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 4 	Counter of jam: 0 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 5 	Counter of jam: 0 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 5 	Counter of jam: -1 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Counter of jam: -1 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 6 	Counter of jam: 2 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 6 	Counter of jam: 1 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 7 	Counter of jam: 1 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 7 	Counter of jam: 0 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 8 	Counter of jam: 0 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 8 	Counter of jam: -1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Counter of jam: -1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 9 	Counter of jam: 3 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 9 	Counter of jam: 2 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 10 	Counter of jam: 2 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 10 	Counter of jam: 1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 11 	Counter of jam: 1 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 11 	Counter of jam: 0 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 12 	Counter of jam: 0 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 12 	Counter of jam: -1 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Counter of jam: -1 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 13 	Counter of jam: 3 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 13 	Counter of jam: 2 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 14 	Counter of jam: 2 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 14 	Counter of jam: 1 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 15 	Counter of jam: 1 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 4 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 5 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 15 	Counter of jam: 0 	Token: 6 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 0 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 16 	Counter of jam: 0 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 16 	Counter of jam: -1 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Counter of jam: -1 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 17 	Counter of jam: 1 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 2 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 3 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 4 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 5 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 17 	Counter of jam: 0 	Token: 6 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 0 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 18 	Counter of jam: 0 	Token: 1 
+Taxi : (3,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 18 	Counter of jam: -1 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Counter of jam: -1 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 19 	Counter of jam: 1 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 19 	Counter of jam: 0 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 20 	Counter of jam: 0 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 20 	Counter of jam: -1 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Counter of jam: -1 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 21 	Counter of jam: 1 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 21 	Counter of jam: 0 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 22 	Counter of jam: 0 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 22 	Counter of jam: -1 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Counter of jam: -1 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--updateJam-->
+
+Time of the day: 23 	Counter of jam: 1 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 23 	Counter of jam: 0 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,3) -- (3,3) --> (3,1) 
+Client 1 : (3,3) -- (3,3) --> (3,2) 
+
+ reward: 0.0	 labels: set()
+
