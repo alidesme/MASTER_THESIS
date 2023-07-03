@@ -158,6 +158,6 @@ def transformToStr(walls: Grid, stops: Grid, fuel_station: Grid, airport: Grid, 
 if __name__ == '__main__':
     height, width = 10, 10
     
-    createLayout(3, height, width, 15, (height*width)*10)
+    createLayout(3, height, width, 15, (height*width))
 
     pass
