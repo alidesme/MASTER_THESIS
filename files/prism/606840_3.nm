@@ -82,7 +82,7 @@ const int w4_4 = 1;
 const int xf = 1;
 const int yf = 2;
 
-global totalWaiting_c0 : int init 3;
+global totalWaiting_c0 : int init 5;
 
 formula waiting_c0 = (totalWaiting_c0 > 0) & (c0_in = 0) & (((xt != xs_c0) | (yt != ys_c0)) | ((xt = xs_c0) & (yt = ys_c0) & ((c1_in = 1))));
 formula picking_c0 = (xt = xs_c0) & (yt = ys_c0) & (busy = 0);
@@ -92,9 +92,9 @@ formula riding_c0 =  !(waiting_c0) & !(picking_c0) & !(reaching_c0) & !(totalWai
 formula distanceX_c0 = max(xs_c0-xd_c0,xd_c0-xs_c0);
 formula distanceY_c0 = max(ys_c0-yd_c0,yd_c0-ys_c0);
 
-formula enough_fuel_0 = totalFuel >= ((distance_taxi_fuel) + (distanceX_c0 + distanceY_c0));
+formula enough_fuel_c0 = totalFuel >= ((distance_taxi_fuel) + (distanceX_c0 + distanceY_c0));
 
-global totalWaiting_c1 : int init 6;
+global totalWaiting_c1 : int init 7;
 
 formula waiting_c1 = (totalWaiting_c1 > 0) & (c1_in = 0) & (((xt != xs_c1) | (yt != ys_c1)) | ((xt = xs_c1) & (yt = ys_c1) & ((c0_in = 1))));
 formula picking_c1 = (xt = xs_c1) & (yt = ys_c1) & (busy = 0);
@@ -104,7 +104,7 @@ formula riding_c1 =  !(waiting_c1) & !(picking_c1) & !(reaching_c1) & !(totalWai
 formula distanceX_c1 = max(xs_c1-xd_c1,xd_c1-xs_c1);
 formula distanceY_c1 = max(ys_c1-yd_c1,yd_c1-ys_c1);
 
-formula enough_fuel_1 = totalFuel >= ((distance_taxi_fuel) + (distanceX_c1 + distanceY_c1));
+formula enough_fuel_c1 = totalFuel >= ((distance_taxi_fuel) + (distanceX_c1 + distanceY_c1));
 
 formula busy = c0_in + c1_in;
 
@@ -190,13 +190,13 @@ endmodule
 module client0
 
 xs_c0 : [1..4] init 3;
-ys_c0 : [1..4] init 2;
+ys_c0 : [1..4] init 3;
 
 xc_c0 : [1..4] init 3;
-yc_c0 : [1..4] init 2;
+yc_c0 : [1..4] init 3;
 
 xd_c0 : [1..4] init 3;
-yd_c0 : [1..4] init 3;
+yd_c0 : [1..4] init 2;
 
 c0_in : [0..1] init 0;
 
@@ -204,9 +204,9 @@ c0_in : [0..1] init 0;
 [pick_0] (c0_in = 0) -> (xc_c0' = xs_c0) & (yc_c0' = ys_c0);
 
 [client_0] (waiting_c0)  -> 1: (totalWaiting_c0' = totalWaiting_c0 - 1);
-[client_0] (picking_c0 & enough_fuel_0) -> 1: (c0_in' = 1);
-[client_0] (picking_c0 & !enough_fuel_0) -> 1: (c0_in' = 0);
-[client_0] (reaching_c0 | totalWaiting_c0 = 0) -> 0.532908959715392 : (xs_c0' = 3) & (ys_c0' = 2) & (xd_c0' = 2) & (yd_c0' = 2) & (c0_in' = 0) & (totalWaiting_c0' = 8) + 0.3308714688026515 : (xs_c0' = 3) & (ys_c0' = 3) & (xd_c0' = 3) & (yd_c0' = 1) & (c0_in' = 0) & (totalWaiting_c0' = 7) + 0.09174815812237631 : (xs_c0' = 2) & (ys_c0' = 2) & (xd_c0' = 3) & (yd_c0' = 1) & (c0_in' = 0) & (totalWaiting_c0' = 4) + 0.0444714133595802 : (xs_c0' = 3) & (ys_c0' = 1) & (xd_c0' = 2) & (yd_c0' = 2) & (c0_in' = 0) & (totalWaiting_c0' = 3);
+[client_0] (picking_c0 & enough_fuel_c0) -> 1: (c0_in' = 1);
+[client_0] (picking_c0 & !enough_fuel_c0) -> 1: (c0_in' = 0);
+[client_0] (reaching_c0 | totalWaiting_c0 = 0) -> 0.532908959715392 : (xs_c0' = 3) & (ys_c0' = 2) & (xd_c0' = 3) & (yd_c0' = 3) & (c0_in' = 0) & (totalWaiting_c0' = 5) + 0.3308714688026515 : (xs_c0' = 3) & (ys_c0' = 3) & (xd_c0' = 3) & (yd_c0' = 1) & (c0_in' = 0) & (totalWaiting_c0' = 9) + 0.09174815812237631 : (xs_c0' = 2) & (ys_c0' = 2) & (xd_c0' = 3) & (yd_c0' = 2) & (c0_in' = 0) & (totalWaiting_c0' = 6) + 0.0444714133595802 : (xs_c0' = 3) & (ys_c0' = 1) & (xd_c0' = 3) & (yd_c0' = 3) & (c0_in' = 0) & (totalWaiting_c0' = 8);
 [client_0] (riding_c0) -> 1: (xs_c0' = xs_c0) & (ys_c0' = ys_c0) & (xd_c0' = xd_c0) & (yd_c0' = yd_c0) & (xc_c0' = xc_c0) & (yc_c0' = yc_c0);
 
 endmodule
@@ -215,13 +215,13 @@ endmodule
 module client1
 
 xs_c1 : [1..4] init 3;
-ys_c1 : [1..4] init 2;
+ys_c1 : [1..4] init 3;
 
 xc_c1 : [1..4] init 3;
-yc_c1 : [1..4] init 2;
+yc_c1 : [1..4] init 3;
 
 xd_c1 : [1..4] init 3;
-yd_c1 : [1..4] init 3;
+yd_c1 : [1..4] init 2;
 
 c1_in : [0..1] init 0;
 
@@ -229,9 +229,9 @@ c1_in : [0..1] init 0;
 [pick_1] (c1_in = 0) -> (xc_c1' = xs_c1) & (yc_c1' = ys_c1);
 
 [client_1] (waiting_c1)  -> 1: (totalWaiting_c1' = totalWaiting_c1 - 1);
-[client_1] (picking_c1 & enough_fuel_1) -> 1: (c1_in' = 1);
-[client_1] (picking_c1 & !enough_fuel_1) -> 1: (c1_in' = 0);
-[client_1] (reaching_c1 | totalWaiting_c1 = 0) -> 0.532908959715392 : (xs_c1' = 3) & (ys_c1' = 2) & (xd_c1' = 3) & (yd_c1' = 1) & (c1_in' = 0) & (totalWaiting_c1' = 7) + 0.3308714688026515 : (xs_c1' = 3) & (ys_c1' = 3) & (xd_c1' = 2) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 9) + 0.09174815812237631 : (xs_c1' = 2) & (ys_c1' = 2) & (xd_c1' = 3) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 7) + 0.0444714133595802 : (xs_c1' = 3) & (ys_c1' = 1) & (xd_c1' = 3) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 6);
+[client_1] (picking_c1 & enough_fuel_c1) -> 1: (c1_in' = 1);
+[client_1] (picking_c1 & !enough_fuel_c1) -> 1: (c1_in' = 0);
+[client_1] (reaching_c1 | totalWaiting_c1 = 0) -> 0.532908959715392 : (xs_c1' = 3) & (ys_c1' = 2) & (xd_c1' = 2) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 8) + 0.3308714688026515 : (xs_c1' = 3) & (ys_c1' = 3) & (xd_c1' = 2) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 9) + 0.09174815812237631 : (xs_c1' = 2) & (ys_c1' = 2) & (xd_c1' = 3) & (yd_c1' = 1) & (c1_in' = 0) & (totalWaiting_c1' = 9) + 0.0444714133595802 : (xs_c1' = 3) & (ys_c1' = 1) & (xd_c1' = 2) & (yd_c1' = 2) & (c1_in' = 0) & (totalWaiting_c1' = 3);
 [client_1] (riding_c1) -> 1: (xs_c1' = xs_c1) & (ys_c1' = ys_c1) & (xd_c1' = xd_c1) & (yd_c1' = yd_c1) & (xc_c1' = xc_c1) & (yc_c1' = yc_c1);
 
 endmodule

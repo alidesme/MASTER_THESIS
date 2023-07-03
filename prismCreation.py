@@ -13,7 +13,6 @@ import copy
 
 
 TEMP_DIR = 'files'+os.sep+'prism'
-# os.mkdir(TEMP_DIR)
 
 
 def readFromFile(layout_filename):
@@ -97,7 +96,7 @@ class taxiEngine:
             file = open(self.prism_filename, 'w+')
             self.prism_out = file
 
-    def _initialize(self, args):
+    def _initialize(self):
 
         print('mdp\n', file=self.prism_out)
         print(
@@ -123,14 +122,14 @@ class taxiEngine:
 
         formulaBusy = "formula busy = "
         for k in range(self.number_of_clients):
-            self._client(k, args)
+            self._client(k)
             formulaBusy += f'c{k}_in + '
         formulaBusy = formulaBusy[:-3] + ';\n'
         print(formulaBusy, file=self.prism_out)
 
         self._taxiMove()
-        self._fuel(args)
-        self._jam(args)
+        self._fuel()
+        self._jam()
         self._dayHours()
 
     def _dayHours(self):
@@ -140,28 +139,17 @@ class taxiEngine:
         print(f'formula night_hours = (timeOfTheDay > 14) & (timeOfTheDay <= 24);',
               file=self.prism_out)
 
-    def _fuel(self, args):
-        formulaFuelOK = "formula fuelOK = "
-
-        if (("F" not in args) & ("A" not in args)):
-            formulaFuelOK += "1;\n"
-            print(formulaFuelOK, file=self.prism_out)
-        elif (("F" in args) or ("A" in args)):
-            formulaFuelOK += "(totalFuel >= 1)?1:0;\n"
-            print(formulaFuelOK, file=self.prism_out)
+    def _fuel(self):
+        formulaFuelOK = "formula fuelOK = (totalFuel >= 1)?1:0;\n"
+        print(formulaFuelOK, file=self.prism_out)
         print(
             f"formula distance_taxi_fuel = (max(xf-xt,xt-xf) + max(yf-yt,yt-yf));", file=self.prism_out)
-        # print(
-        #     f"formula distanceY_taxi_fuel = ;\n", file=self.prism_out)
 
-    def _jam(self, args):
+    def _jam(self):
         formulaJamDay = "const int jamDay = 2;"
         formulaJamPick = "const int jamPick = 3;"
         formulaJamNight = "const int jamNight = 1;"
-        if (("J" not in args) & ("A" not in args)):
-            formulaJamDay = formulaJamDay[:-2] + "0;"
-            formulaJamPick = formulaJamPick[:-2] + "0;"
-            formulaJamNight = formulaJamNight[:-2] + "0;"
+
         print(formulaJamDay, file=self.prism_out)
         print(formulaJamPick, file=self.prism_out)
         print(formulaJamNight, file=self.prism_out)
@@ -170,17 +158,12 @@ class taxiEngine:
         print(f'formula jam_int = (jamCounter != 0)?1:0;\n',
               file=self.prism_out)
 
-    def _client(self, k, args):
+    def _client(self, k):
         # TODO Random waiting time according to the size of the grid ???
         random_waiting_time = random.randrange(3, 10)
-        formulatotalWaiting = f"global totalWaiting_c{k} : int init "
+        formulaTotalWaiting = f"global totalWaiting_c{k} : int init {random_waiting_time};\n"
+        print(formulaTotalWaiting, file=self.prism_out)
 
-        if (("W" not in args) & ("A" not in args)):
-            formulatotalWaiting += f'0;\n'
-            print(formulatotalWaiting, file=self.prism_out)
-        elif (("W" in args) or ("A" in args)):
-            formulatotalWaiting += f'{random_waiting_time};\n'
-            print(formulatotalWaiting, file=self.prism_out)
         formulaWaiting = f'formula waiting_c{k} = (totalWaiting_c{k} > 0) & (c{k}_in = 0) & (((xt != xs_c{k}) | (yt != ys_c{k})) | ((xt = xs_c{k}) & (yt = ys_c{k}) & ('
         for other_k in range(self.number_of_clients):
             if other_k != k:
@@ -214,7 +197,7 @@ class taxiEngine:
 
         # Remark TODO I can use distanceXY_c{k}  bc at this point the taxi position = start position of the client k (see picking)
         print(
-            f"formula enough_fuel_{k} = totalFuel >= ((distance_taxi_fuel) + (distanceX_c{k} + distanceY_c{k}));\n", file=self.prism_out)
+            f"formula enough_fuel_c{k} = totalFuel >= ((distance_taxi_fuel) + (distanceX_c{k} + distanceY_c{k}));\n", file=self.prism_out)
 
     def _moduleArbiter(self):
         print('\nmodule arbiter\n', file=self.prism_out)
@@ -364,9 +347,9 @@ class taxiEngine:
             print(
                 f'[client_{k}] (waiting_c{k})  -> 1: (totalWaiting_c{k}\' = totalWaiting_c{k} - 1);', file=self.prism_out)
             print(
-                f'[client_{k}] (picking_c{k} & enough_fuel_{k}) -> 1: (c{k}_in\' = 1);', file=self.prism_out)
+                f'[client_{k}] (picking_c{k} & enough_fuel_c{k}) -> 1: (c{k}_in\' = 1);', file=self.prism_out)
             print(
-                f'[client_{k}] (picking_c{k} & !enough_fuel_{k}) -> 1: (c{k}_in\' = 0);', file=self.prism_out)  # TODO What todo when the fuel is not enough ?
+                f'[client_{k}] (picking_c{k} & !enough_fuel_c{k}) -> 1: (c{k}_in\' = 0);', file=self.prism_out)  # TODO What todo when the fuel is not enough ?
             print(f'[client_{k}] (reaching_c{k} | totalWaiting_c{k} = 0) -> ' +
                   self.setClientNewPositions(k), file=self.prism_out)
 
@@ -411,10 +394,10 @@ class taxiEngine:
                 f'(reaching_c{k} & token = {k+4}): distanceX_c{k} + distanceY_c{k};', file=self.prism_out)
         print('endrewards\n', file=self.prism_out)
 
-    def createPrismFilefFromGrids(self, args):
+    def createPrismFilefFromGrids(self):
         # number_of_clients = 2
         self._openOutput()
-        self._initialize(args)
+        self._initialize()
         self._moduleTime()
         self._moduleJam()
         self._moduleFuel()
@@ -426,16 +409,11 @@ class taxiEngine:
         return (self.prism_filename)
 
 
-def createEngine(layout_filename, args):
+def createEngine(layout_filename):
     taxi, walls, airport, stops, number_of_stops, fuel_station, fuel_position, fuel_level, information = readFromFile(
         layout_filename)
     prism_filename = TEMP_DIR
-    if ("J" in args):
-        prism_filename += "SJam"
-    elif ("W" in args):
-        prism_filename += "SWaitingTimes"
-    elif ("F" in args):
-        prism_filename += "SFuel"
+
     if not os.path.isdir(prism_filename):
         try:
             os.makedirs(prism_filename)
@@ -443,13 +421,12 @@ def createEngine(layout_filename, args):
             pass
     else:
         pass
-    print(prism_filename)
     prism_filename = prism_filename+os.sep + \
         str(os.getpid())+f'_{number_of_stops}.nm'
     number_of_clients = 2
     t = taxiEngine(taxi, walls, number_of_clients, airport, stops, number_of_stops,
                    fuel_station, fuel_position, fuel_level, information, prism_filename)
-    return t.createPrismFilefFromGrids(args)
+    return t.createPrismFilefFromGrids()
 
 
 # TODO What to satisfy ? #  R{"r"}max=? [F ((busy=1) )]"Rmax=? [LRA]"& (((1-jam_int) * fuelOK)= 1) & jamCounter = 0 &
@@ -471,9 +448,7 @@ def getValue(prismFile, formula_str='R{"r"}max=? [F (reaching_c0 & token = 4)] '
 
 
 if __name__ == '__main__':
-    print(sys.argv[1:])
-    p = createEngine("files/layouts/_10x10_0_spawn.lay", sys.argv[1:])
-    # p = createEngine("files/layouts/_5x10_0_spawn.lay")
+    p = createEngine("files/layouts/_5x5_0_spawn.lay")
 
     # print(getValue("files/prism/240915_3.nm"))  # ALL
 

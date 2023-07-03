@@ -1,0 +1,2705 @@
+Time of the day: 0 	Level of fuel: 100 	Counter of jam: -1 	Token: 0 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+--updateJam-->
+
+Time of the day: 0 	Level of fuel: 100 	Counter of jam: 2 	Token: 1 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 2 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 3 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 4 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 5 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 6 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 99 	Counter of jam: 1 	Token: 7 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 99 	Counter of jam: 1 	Token: 0 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 1 	Level of fuel: 99 	Counter of jam: 1 	Token: 1 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 2 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 3 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 4 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 5 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 6 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 98 	Counter of jam: 0 	Token: 7 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 98 	Counter of jam: 0 	Token: 0 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 2 	Level of fuel: 98 	Counter of jam: 0 	Token: 1 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 2 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 3 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 4 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 5 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 6 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 97 	Counter of jam: -1 	Token: 7 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 97 	Counter of jam: -1 	Token: 0 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 3 	Level of fuel: 97 	Counter of jam: 2 	Token: 1 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 2 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 3 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 4 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 5 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 6 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 96 	Counter of jam: 1 	Token: 7 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 96 	Counter of jam: 1 	Token: 0 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 4 	Level of fuel: 96 	Counter of jam: 1 	Token: 1 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 2 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 3 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 4 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 5 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 6 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 95 	Counter of jam: 0 	Token: 7 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 95 	Counter of jam: 0 	Token: 0 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 5 	Level of fuel: 95 	Counter of jam: 0 	Token: 1 
+Taxi : (7,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 2 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 3 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 4 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (8,7) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 5 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 6 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 94 	Counter of jam: -1 	Token: 7 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 94 	Counter of jam: -1 	Token: 0 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 6 	Level of fuel: 94 	Counter of jam: 2 	Token: 1 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 2 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 3 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 4 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 5 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 6 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 93 	Counter of jam: 1 	Token: 7 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 93 	Counter of jam: 1 	Token: 0 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 7 	Level of fuel: 93 	Counter of jam: 1 	Token: 1 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 2 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 3 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 4 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 5 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 6 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 92 	Counter of jam: 0 	Token: 7 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 92 	Counter of jam: 0 	Token: 0 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 8 	Level of fuel: 92 	Counter of jam: 0 	Token: 1 
+Taxi : (6,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 2 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 3 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 4 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 5 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 6 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 91 	Counter of jam: -1 	Token: 7 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 91 	Counter of jam: -1 	Token: 0 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 9 	Level of fuel: 91 	Counter of jam: 3 	Token: 1 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 2 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 3 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 4 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 5 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 6 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 90 	Counter of jam: 2 	Token: 7 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 90 	Counter of jam: 2 	Token: 0 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 10 	Level of fuel: 90 	Counter of jam: 2 	Token: 1 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 2 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 3 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 4 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 5 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 6 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 89 	Counter of jam: 1 	Token: 7 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 89 	Counter of jam: 1 	Token: 0 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 11 	Level of fuel: 89 	Counter of jam: 1 	Token: 1 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 2 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 3 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 4 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 5 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 6 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 88 	Counter of jam: 0 	Token: 7 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 88 	Counter of jam: 0 	Token: 0 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 12 	Level of fuel: 88 	Counter of jam: 0 	Token: 1 
+Taxi : (6,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 2 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 3 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 4 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 5 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 6 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 87 	Counter of jam: -1 	Token: 7 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 87 	Counter of jam: -1 	Token: 0 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 13 	Level of fuel: 87 	Counter of jam: 3 	Token: 1 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 2 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 3 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 4 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 5 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 6 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 86 	Counter of jam: 2 	Token: 7 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 86 	Counter of jam: 2 	Token: 0 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 14 	Level of fuel: 86 	Counter of jam: 2 	Token: 1 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 2 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 3 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 4 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 5 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 6 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 85 	Counter of jam: 1 	Token: 7 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 85 	Counter of jam: 1 	Token: 0 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 15 	Level of fuel: 85 	Counter of jam: 1 	Token: 1 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 2 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 3 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 4 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 5 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 6 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 84 	Counter of jam: 0 	Token: 7 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 84 	Counter of jam: 0 	Token: 0 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 16 	Level of fuel: 84 	Counter of jam: 0 	Token: 1 
+Taxi : (6,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 2 
+Taxi : (5,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 3 
+Taxi : (5,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 4 
+Taxi : (5,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 5 
+Taxi : (5,7)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 6 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 83 	Counter of jam: -1 	Token: 7 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 83 	Counter of jam: -1 	Token: 0 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 17 	Level of fuel: 83 	Counter of jam: 1 	Token: 1 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 2 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 3 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 4 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 5 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 6 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 82 	Counter of jam: 0 	Token: 7 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 82 	Counter of jam: 0 	Token: 0 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 18 	Level of fuel: 82 	Counter of jam: 0 	Token: 1 
+Taxi : (5,7)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 2 
+Taxi : (5,6)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 3 
+Taxi : (5,6)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 4 
+Taxi : (5,6)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,6) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 5 
+Taxi : (5,6)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,6) --> (5,6) 	 (remaining time: 2) 
+
+ reward: 1.0	 labels: []
+
+--client_1-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 6 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 81 	Counter of jam: -1 	Token: 7 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 81 	Counter of jam: -1 	Token: 0 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 19 	Level of fuel: 81 	Counter of jam: 1 	Token: 1 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 2 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 3 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (5,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 4 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 5 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 6 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 80 	Counter of jam: 0 	Token: 7 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 80 	Counter of jam: 0 	Token: 0 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 20 	Level of fuel: 80 	Counter of jam: 0 	Token: 1 
+Taxi : (5,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 2 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 3 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 4 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 5 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 6 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 79 	Counter of jam: -1 	Token: 7 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 79 	Counter of jam: -1 	Token: 0 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 21 	Level of fuel: 79 	Counter of jam: 1 	Token: 1 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 2 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 3 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 4 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 5 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 6 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 78 	Counter of jam: 0 	Token: 7 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 78 	Counter of jam: 0 	Token: 0 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 22 	Level of fuel: 78 	Counter of jam: 0 	Token: 1 
+Taxi : (4,6)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 2 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 3 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 4 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 5 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 6 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 77 	Counter of jam: -1 	Token: 7 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 77 	Counter of jam: -1 	Token: 0 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 23 	Level of fuel: 77 	Counter of jam: 1 	Token: 1 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 2 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 3 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 4 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (7,3) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 5 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 6 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 76 	Counter of jam: 0 	Token: 7 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 76 	Counter of jam: 0 	Token: 0 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 0 	Level of fuel: 76 	Counter of jam: 0 	Token: 1 
+Taxi : (4,5)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 2 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (2,6) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 3 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 4 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 6) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 5 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 6 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 75 	Counter of jam: -1 	Token: 7 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 75 	Counter of jam: -1 	Token: 0 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 1 	Level of fuel: 75 	Counter of jam: 2 	Token: 1 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 2 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 3 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 4 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 5) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 5 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 6 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 74 	Counter of jam: 1 	Token: 7 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 74 	Counter of jam: 1 	Token: 0 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 2 	Level of fuel: 74 	Counter of jam: 1 	Token: 1 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 2 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 3 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 4 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 4) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 5 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 6 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 73 	Counter of jam: 0 	Token: 7 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 73 	Counter of jam: 0 	Token: 0 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 3 	Level of fuel: 73 	Counter of jam: 0 	Token: 1 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 2 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 3 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 4 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 3) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 5 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 6 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 72 	Counter of jam: -1 	Token: 7 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 72 	Counter of jam: -1 	Token: 0 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 4 	Level of fuel: 72 	Counter of jam: 2 	Token: 1 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 2 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 3 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 4 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 2) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 5 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 2) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 6 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 71 	Counter of jam: 1 	Token: 7 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 71 	Counter of jam: 1 	Token: 0 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 5 	Level of fuel: 71 	Counter of jam: 1 	Token: 1 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 2 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 3 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 4 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 1) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 5 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 1) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 6 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 70 	Counter of jam: 0 	Token: 7 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 70 	Counter of jam: 0 	Token: 0 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 6 	Level of fuel: 70 	Counter of jam: 0 	Token: 1 
+Taxi : (4,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 2 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 3 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 4 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (5,7) -- (5,7) --> (2,7) 	 (remaining time: 0) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 5 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (2,6) -- (2,6) --> (4,2) 	 (remaining time: 0) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 6 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 69 	Counter of jam: -1 	Token: 7 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 69 	Counter of jam: -1 	Token: 0 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 7 	Level of fuel: 69 	Counter of jam: 2 	Token: 1 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 2 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 3 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (2,6) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 4 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 9) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 5 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 9) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 6 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 68 	Counter of jam: 1 	Token: 7 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 68 	Counter of jam: 1 	Token: 0 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 8 	Level of fuel: 68 	Counter of jam: 1 	Token: 1 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 2 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 3 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 4 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 8) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 5 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 8) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 6 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 67 	Counter of jam: 0 	Token: 7 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 67 	Counter of jam: 0 	Token: 0 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 9 	Level of fuel: 67 	Counter of jam: 0 	Token: 1 
+Taxi : (3,3)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 2 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 3 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 4 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 7) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 5 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 7) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 6 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 66 	Counter of jam: -1 	Token: 7 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 66 	Counter of jam: -1 	Token: 0 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 10 	Level of fuel: 66 	Counter of jam: 3 	Token: 1 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 2 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 3 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 4 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 6) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 5 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 6) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 6 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 65 	Counter of jam: 2 	Token: 7 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 65 	Counter of jam: 2 	Token: 0 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 11 	Level of fuel: 65 	Counter of jam: 2 	Token: 1 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 2 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 3 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 4 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 5) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 5 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 5) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 6 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 64 	Counter of jam: 1 	Token: 7 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 64 	Counter of jam: 1 	Token: 0 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 12 	Level of fuel: 64 	Counter of jam: 1 	Token: 1 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 2 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 3 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 4 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 4) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 5 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 6 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 63 	Counter of jam: 0 	Token: 7 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 63 	Counter of jam: 0 	Token: 0 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--updateJam-->
+
+Time of the day: 13 	Level of fuel: 63 	Counter of jam: 0 	Token: 1 
+Taxi : (3,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 13 	Level of fuel: 62 	Counter of jam: -1 	Token: 2 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 13 	Level of fuel: 62 	Counter of jam: -1 	Token: 3 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 13 	Level of fuel: 62 	Counter of jam: -1 	Token: 4 
+Taxi : (4,4)	 (passengers: [])
+Client 0 : (7,3) -- (7,3) --> (5,6) 	 (remaining time: 3) 
+Client 1 : (5,7) -- (5,7) --> (5,6) 	 (remaining time: 3) 
+
+ reward: 0.0	 labels: []
+
