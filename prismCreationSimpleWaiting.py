@@ -366,10 +366,8 @@ def getValue(prismFile, formula_str='R{"r"}max=? [F (reaching_c0 & token = 3)] '
 
 
 if __name__ == '__main__':
-    # p = createEngine("files/layouts/_5x5_0_spawn.lay")
+    p = createEngine("files/layouts/_10x10_0_spawn.lay")
     # print(getValue(p))
-    # print(getValue("files/prismS/53734_3.nm"))  # VERY SIMPLE
-    # print(getValue("files/prismS/315509_3.nm"))
-    print(getValue("files/prismSWaitingTimes/1410337_3.nm"))  # With waiting times
+    # print(getValue("files/prismSWaitingTimes/1410337_3.nm"))  # With waiting times
 
     pass

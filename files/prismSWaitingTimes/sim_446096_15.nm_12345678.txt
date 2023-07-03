@@ -1,0 +1,2705 @@
+Time of the day: 0 	Token: 0 
+Taxi : (7,4)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+--West-->
+
+Time of the day: 0 	Token: 1 
+Taxi : (7,3)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 0 	Token: 2 
+Taxi : (7,3)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 0 	Token: 3 
+Taxi : (7,3)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 0 	Token: 4 
+Taxi : (7,3)	 (passengers: [])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 0 	Token: 5 
+Taxi : (7,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 1 	Token: 0 
+Taxi : (7,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 1 	Token: 1 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 1 	Token: 2 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 1 	Token: 3 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 1 	Token: 4 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 1 	Token: 5 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 2 	Token: 0 
+Taxi : (7,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 2 	Token: 1 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 2 	Token: 2 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 2 	Token: 3 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 2 	Token: 4 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 2 	Token: 5 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 3 	Token: 0 
+Taxi : (7,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 3 	Token: 1 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 3 	Token: 2 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (7,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 3 	Token: 3 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 3 	Token: 4 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 3 	Token: 5 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 4 	Token: 0 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 4 	Token: 1 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 4 	Token: 2 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 4 	Token: 3 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 4 	Token: 4 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 4 	Token: 5 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 5 	Token: 0 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 5 	Token: 1 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 5 	Token: 2 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 5 	Token: 3 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 5 	Token: 4 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 5 	Token: 5 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 6 	Token: 0 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 6 	Token: 1 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 6 	Token: 2 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 6 	Token: 3 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 6 	Token: 4 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 6 	Token: 5 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 7 	Token: 0 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 7 	Token: 1 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 7 	Token: 2 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 7 	Token: 3 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 7 	Token: 4 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 7 	Token: 5 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 8 	Token: 0 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 8 	Token: 1 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 8 	Token: 2 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 8 	Token: 3 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 8 	Token: 4 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 8 	Token: 5 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 9 	Token: 0 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 9 	Token: 1 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 9 	Token: 2 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 9 	Token: 3 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (5,7) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 9 	Token: 4 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 9 	Token: 5 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 10 	Token: 0 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 10 	Token: 1 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 10 	Token: 2 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 10 	Token: 3 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 10 	Token: 4 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 10 	Token: 5 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 11 	Token: 0 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 11 	Token: 1 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 11 	Token: 2 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 11 	Token: 3 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 11 	Token: 4 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 11 	Token: 5 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 12 	Token: 0 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 12 	Token: 1 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 12 	Token: 2 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 12 	Token: 3 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 12 	Token: 4 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 12 	Token: 5 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 13 	Token: 0 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 13 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 13 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 13 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 13 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 13 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 14 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 14 	Token: 1 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 14 	Token: 2 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 14 	Token: 3 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 14 	Token: 4 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 14 	Token: 5 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 15 	Token: 0 
+Taxi : (5,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 15 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 15 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 15 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 15 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 15 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 16 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 16 	Token: 1 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 16 	Token: 2 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 16 	Token: 3 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 16 	Token: 4 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (2,6) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 16 	Token: 5 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (2,6) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 17 	Token: 0 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (2,6) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 17 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (2,6) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 17 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 17 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 17 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 17 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 18 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 18 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 18 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 18 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 18 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 18 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 19 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 19 	Token: 1 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 19 	Token: 2 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 19 	Token: 3 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 19 	Token: 4 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 19 	Token: 5 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 20 	Token: 0 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 20 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 20 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 20 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 20 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 20 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 21 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 21 	Token: 1 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 21 	Token: 2 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 21 	Token: 3 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 21 	Token: 4 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 21 	Token: 5 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 22 	Token: 0 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 22 	Token: 1 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 22 	Token: 2 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 22 	Token: 3 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 22 	Token: 4 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 22 	Token: 5 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 23 	Token: 0 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 23 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 23 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 23 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 23 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 23 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 0 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 0 	Token: 1 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 0 	Token: 2 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 0 	Token: 3 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 0 	Token: 4 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 0 	Token: 5 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 1 	Token: 0 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 1 	Token: 1 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 1 	Token: 2 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 1 	Token: 3 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 1 	Token: 4 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 1 	Token: 5 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 2 	Token: 0 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 2 	Token: 1 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 2 	Token: 2 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 2 	Token: 3 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 2 	Token: 4 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 2 	Token: 5 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 3 	Token: 0 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 3 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 3 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 3 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 9) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 3 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 3 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 4 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 4 	Token: 1 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 4 	Token: 2 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 4 	Token: 3 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 8) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 4 	Token: 4 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 4 	Token: 5 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 5 	Token: 0 
+Taxi : (4,4)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 5 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 5 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 5 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 7) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 5 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 5 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 6 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 6 	Token: 1 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 6 	Token: 2 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 6 	Token: 3 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 6 	Token: 4 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 6 	Token: 5 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 7 	Token: 0 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 7 	Token: 1 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 7 	Token: 2 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 7 	Token: 3 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 7 	Token: 4 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 7 	Token: 5 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 8 	Token: 0 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 8 	Token: 1 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 8 	Token: 2 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 8 	Token: 3 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 8 	Token: 4 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 8 	Token: 5 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 9 	Token: 0 
+Taxi : (5,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 9 	Token: 1 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 9 	Token: 2 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (5,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 9 	Token: 3 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 9 	Token: 4 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 9 	Token: 5 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 10 	Token: 0 
+Taxi : (4,1)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 10 	Token: 1 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 10 	Token: 2 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 10 	Token: 3 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 10 	Token: 4 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 10 	Token: 5 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 11 	Token: 0 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 11 	Token: 1 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 11 	Token: 2 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 11 	Token: 3 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 11 	Token: 4 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 11 	Token: 5 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 12 	Token: 0 
+Taxi : (4,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 12 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 12 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (4,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 12 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (7,3) -- (7,3) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 12 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 12 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 13 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 13 	Token: 1 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (7,3) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 13 	Token: 2 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 13 	Token: 3 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 13 	Token: 4 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 13 	Token: 5 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 14 	Token: 0 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 14 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 14 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 14 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 14 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 14 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 15 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 15 	Token: 1 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 15 	Token: 2 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 15 	Token: 3 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 15 	Token: 4 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 15 	Token: 5 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 16 	Token: 0 
+Taxi : (2,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 16 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 16 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (2,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 16 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 16 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 16 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 17 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 17 	Token: 1 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 17 	Token: 2 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 17 	Token: 3 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 17 	Token: 4 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 17 	Token: 5 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 18 	Token: 0 
+Taxi : (3,4)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 18 	Token: 1 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 18 	Token: 2 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,4) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 18 	Token: 3 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 18 	Token: 4 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 18 	Token: 5 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 19 	Token: 0 
+Taxi : (3,3)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 19 	Token: 1 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 19 	Token: 2 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,3) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 19 	Token: 3 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 19 	Token: 4 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 19 	Token: 5 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 20 	Token: 0 
+Taxi : (3,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 20 	Token: 1 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 20 	Token: 2 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (3,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 20 	Token: 3 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 6) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 20 	Token: 4 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 20 	Token: 5 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 21 	Token: 0 
+Taxi : (4,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 21 	Token: 1 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 21 	Token: 2 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (4,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 21 	Token: 3 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 5) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 21 	Token: 4 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 21 	Token: 5 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 22 	Token: 0 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--South-->
+
+Time of the day: 22 	Token: 1 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 22 	Token: 2 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 22 	Token: 3 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 4) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 22 	Token: 4 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 22 	Token: 5 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 23 	Token: 0 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--West-->
+
+Time of the day: 23 	Token: 1 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 23 	Token: 2 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 23 	Token: 3 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 3) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 23 	Token: 4 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 23 	Token: 5 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 0 	Token: 0 
+Taxi : (6,1)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--East-->
+
+Time of the day: 0 	Token: 1 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 0 	Token: 2 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,1) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 0 	Token: 3 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 2) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 0 	Token: 4 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 0 	Token: 5 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 1 	Token: 0 
+Taxi : (6,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--North-->
+
+Time of the day: 1 	Token: 1 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_0-->
+
+Time of the day: 1 	Token: 2 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (6,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--pick_1-->
+
+Time of the day: 1 	Token: 3 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 1) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_0-->
+
+Time of the day: 1 	Token: 4 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--client_1-->
+
+Time of the day: 1 	Token: 5 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
+--updateDay-->
+
+Time of the day: 2 	Token: 0 
+Taxi : (5,2)	 (passengers: [1])
+Client 0 : (2,6) -- (2,6) --> (6,4) 	 (remaining time: 0) 
+Client 1 : (7,3) -- (5,2) --> (2,6) 	 (remaining time: 4) 
+
+ reward: 0.0	 labels: []
+
