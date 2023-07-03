@@ -8,10 +8,21 @@ options = stormpy.BuilderOptions()
 options.set_build_choice_labels()
 options.set_build_state_valuations()
 
+
+def openOutput(filename):
+	if filename == None:
+		out = sys.stdout
+	else:
+		file = open(filename, 'w+')
+		out = file
+	return out
+
 def niceStr(state):
 	stateDict = json.loads(str(state))
-	# print(stateDict)
+	# return str(stateDict)
 	s = f"Time of the day: {stateDict['timeOfTheDay']} \t"
+	s += f"Level of fuel: {stateDict['totalFuel']} \t"
+	s += f"Counter of jam: {stateDict['jamCounter']} \t"
 	s += f"Token: {stateDict['token']} \n"
 	passengerList = []
 	for i in range(0,2):
@@ -22,12 +33,13 @@ def niceStr(state):
 		s += f"Client {i} : ({stateDict[f'xs_c{i}']},{stateDict[f'ys_c{i}']}) -- ({stateDict[f'xc_c{i}']},{stateDict[f'yc_c{i}']}) --> ({stateDict[f'xd_c{i}']},{stateDict[f'yd_c{i}']}) \t (remaining time: {stateDict[f'totalWaiting_c{i}']}) \n"
 	return s
 
-def simulate(path):
+def simulate(path, out):
 	prism_program = stormpy.parse_prism_program(path)
-	model = stormpy.build_sparse_model_with_options(prism_program, options)
-	print(model)
+	# model = stormpy.build_sparse_model_with_options(prism_program, options)
+	# print(model)
 
-	simulator = stormpy.simulator.create_simulator(model,seed=SEED)
+	# simulator = stormpy.simulator.create_simulator(model,seed=SEED)
+	simulator = stormpy.simulator.create_simulator(prism_program, seed=SEED)
 	assert simulator is not None
 	simulator.set_action_mode(stormpy.simulator.SimulatorActionMode.GLOBAL_NAMES)
 	simulator.set_observation_mode(stormpy.simulator.SimulatorObservationMode.PROGRAM_LEVEL)
@@ -46,9 +58,11 @@ def simulate(path):
 				break
 		paths.append(path)
 	# for path in paths:
-		print("".join(path))
+		print("".join(path), file=out)
 
 if __name__ == "__main__":
 	path = sys.argv[1]
-	simulate(path)
+	pathout = path.split("/")[-1]
+	out = openOutput(f"files/prism/sim_{pathout}_{SEED}.txt")
+	simulate(path, out)
 
