@@ -1,0 +1,2727 @@
+-------------------------------------------------------------- 
+Model type: 	MDP (sparse)
+States: 	462090
+Transitions: 	548606
+Choices: 	534653
+Reward Models:  r
+State Labels: 	2 labels
+   * deadlock -> 0 item(s)
+   * init -> 1 item(s)
+Choice Labels: 	10 labels
+   * South -> 26509 item(s)
+   * East -> 35693 item(s)
+   * pick_0 -> 105610 item(s)
+   * pick_1 -> 79472 item(s)
+   * client_1 -> 55533 item(s)
+   * West -> 33733 item(s)
+   * client_0 -> 52500 item(s)
+   * updateFuel -> 57828 item(s)
+   * updateDay -> 55573 item(s)
+   * North -> 32202 item(s)
+-------------------------------------------------------------- 
+
+Time of the day: 0 	Level of fuel: 25 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 24 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 6 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 6 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 6 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 6 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 6 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 8 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 8 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 8 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 8 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 8 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 24 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 24 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 10 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 10 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 10 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 10 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 10 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 12 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 12 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 12 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 12 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 12 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 24 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 24 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 1 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 2 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 3 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 4 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 5 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 23 	Token: 6 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 23 	Token: 0 
+Taxi : (2,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 22 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 22 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 16 	Level of fuel: 21 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 16 	Level of fuel: 21 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 16 	Level of fuel: 21 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 16 	Level of fuel: 21 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 16 	Level of fuel: 21 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 18 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 18 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 18 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 18 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 18 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 20 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 20 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 20 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 20 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 20 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 24 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 24 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 22 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 22 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 22 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 22 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 22 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 1 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 2 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 3 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 4 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 5 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 24 	Token: 6 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 24 	Token: 0 
+Taxi : (1,3)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 0 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 0 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 0 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 0 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 0 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 1 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 2 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 3 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 4 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 5 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 24 	Token: 6 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 24 	Token: 0 
+Taxi : (1,1)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 1 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 2 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 3 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 4 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 2 	Level of fuel: 23 	Token: 5 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 25 	Token: 6 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 25 	Token: 0 
+Taxi : (1,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 1 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 2 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 3 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 24 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 24 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 23 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 23 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 1 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 2 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 3 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 4 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 5 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 22 	Token: 6 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 22 	Token: 0 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 21 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 21 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 1 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 2 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 3 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 4 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 5 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 20 	Token: 6 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 20 	Token: 0 
+Taxi : (3,3)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,3) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 19 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 19 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 1 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 2 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 3 
+Taxi : (2,2)	 (passengers: [0])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 1.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 4 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 5 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 18 	Token: 6 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 18 	Token: 0 
+Taxi : (2,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 1 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (2,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 2 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 3 
+Taxi : (3,2)	 (passengers: [])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 17 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 17 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 1 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 2 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 3 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 4 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 5 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 16 	Token: 6 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 16 	Token: 0 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 1 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 2 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 3 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 4 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 5 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 15 	Token: 6 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 15 	Token: 0 
+Taxi : (3,2)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 1 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 2 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 3 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 4 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 5 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 14 	Token: 6 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 14 	Token: 0 
+Taxi : (3,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 1 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (3,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 2 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 3 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 4 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 5 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 13 	Token: 6 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 13 	Token: 0 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--North-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 1 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 2 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 3 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 4 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 5 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 12 	Token: 6 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 12 	Token: 0 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--East-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 1 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 2 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 3 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 4 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 5 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 11 	Token: 6 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 11 	Token: 0 
+Taxi : (1,2)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--West-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 1 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,2) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 2 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 3 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 4 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 5 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 10 	Token: 6 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 10 	Token: 0 
+Taxi : (1,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--South-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 1 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (1,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_0-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 2 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--pick_1-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 3 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_0-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 4 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--client_1-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 5 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 9 	Token: 6 
+Taxi : (2,1)	 (passengers: [0])
+Client 0 : (3,2) -- (2,1) --> (2,2) 
+Client 1 : (3,2) -- (3,2) --> (3,3) 
+
+ reward: 0.0	 labels: set()
+
