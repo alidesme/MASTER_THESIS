@@ -1,0 +1,2122 @@
+-------------------------------------------------------------- 
+Model type: 	MDP (sparse)
+States: 	1136168
+Transitions: 	2006217
+Choices: 	2006217
+Reward Models:  none
+State Labels: 	3 labels
+   * deadlock -> 0 item(s)
+   * init -> 1 item(s)
+   * Unsafe -> 4188 item(s)
+Choice Labels: 	6 labels
+   * North -> 311541 item(s)
+   * updateFuel -> 383045 item(s)
+   * updateDay -> 376561 item(s)
+   * South -> 311751 item(s)
+   * East -> 311587 item(s)
+   * West -> 311732 item(s)
+-------------------------------------------------------------- 
+
+Time of the day: 0 	Level of fuel: 1000 	Token: 0 
+Taxi : (8,3)
+
+--North-->
+
+Time of the day: 0 	Level of fuel: 999 	Token: 1 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 999 	Token: 2 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 999 	Token: 0 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 998 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 998 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 998 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 997 	Token: 1 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 997 	Token: 2 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 997 	Token: 0 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 3 	Level of fuel: 996 	Token: 1 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 996 	Token: 2 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 996 	Token: 0 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 4 	Level of fuel: 995 	Token: 1 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 995 	Token: 2 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 995 	Token: 0 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 5 	Level of fuel: 994 	Token: 1 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 994 	Token: 2 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 994 	Token: 0 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 6 	Level of fuel: 993 	Token: 1 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 993 	Token: 2 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 993 	Token: 0 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 7 	Level of fuel: 992 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 992 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 992 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 8 	Level of fuel: 991 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 991 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 991 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 9 	Level of fuel: 990 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 990 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 990 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 10 	Level of fuel: 989 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 989 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 989 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 11 	Level of fuel: 988 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 988 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 988 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 12 	Level of fuel: 987 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 987 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 987 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 13 	Level of fuel: 986 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 986 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 986 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 14 	Level of fuel: 985 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 985 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 985 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 15 	Level of fuel: 984 	Token: 1 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 984 	Token: 2 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 984 	Token: 0 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 16 	Level of fuel: 983 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 983 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 983 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 17 	Level of fuel: 982 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 982 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 982 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 18 	Level of fuel: 981 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 981 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 981 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 19 	Level of fuel: 980 	Token: 1 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 980 	Token: 2 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 980 	Token: 0 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 20 	Level of fuel: 979 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 979 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 979 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 21 	Level of fuel: 978 	Token: 1 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 978 	Token: 2 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 978 	Token: 0 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 22 	Level of fuel: 977 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 977 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 977 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 23 	Level of fuel: 976 	Token: 1 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 976 	Token: 2 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 976 	Token: 0 
+Taxi : (8,1)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 975 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 975 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 975 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Level of fuel: 974 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 974 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 974 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 973 	Token: 1 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 973 	Token: 2 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 973 	Token: 0 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 3 	Level of fuel: 972 	Token: 1 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 972 	Token: 2 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 972 	Token: 0 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 4 	Level of fuel: 971 	Token: 1 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 971 	Token: 2 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 971 	Token: 0 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 5 	Level of fuel: 970 	Token: 1 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 970 	Token: 2 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 970 	Token: 0 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 6 	Level of fuel: 969 	Token: 1 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 969 	Token: 2 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 969 	Token: 0 
+Taxi : (6,4)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 7 	Level of fuel: 968 	Token: 1 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 968 	Token: 2 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 968 	Token: 0 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 8 	Level of fuel: 967 	Token: 1 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 967 	Token: 2 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 967 	Token: 0 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 9 	Level of fuel: 966 	Token: 1 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 966 	Token: 2 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 966 	Token: 0 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 10 	Level of fuel: 965 	Token: 1 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 965 	Token: 2 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 965 	Token: 0 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 11 	Level of fuel: 964 	Token: 1 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 964 	Token: 2 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 964 	Token: 0 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 12 	Level of fuel: 963 	Token: 1 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 963 	Token: 2 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 963 	Token: 0 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 13 	Level of fuel: 962 	Token: 1 
+Taxi : (4,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 962 	Token: 2 
+Taxi : (4,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 962 	Token: 0 
+Taxi : (4,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 14 	Level of fuel: 961 	Token: 1 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 961 	Token: 2 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 961 	Token: 0 
+Taxi : (5,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 15 	Level of fuel: 960 	Token: 1 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 960 	Token: 2 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 960 	Token: 0 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 16 	Level of fuel: 959 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 959 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 959 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 17 	Level of fuel: 958 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 958 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 958 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 18 	Level of fuel: 957 	Token: 1 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 957 	Token: 2 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 957 	Token: 0 
+Taxi : (8,2)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 19 	Level of fuel: 956 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 956 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 956 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 20 	Level of fuel: 955 	Token: 1 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 955 	Token: 2 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 955 	Token: 0 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 21 	Level of fuel: 954 	Token: 1 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 954 	Token: 2 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 954 	Token: 0 
+Taxi : (7,4)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 22 	Level of fuel: 953 	Token: 1 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 953 	Token: 2 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 953 	Token: 0 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 23 	Level of fuel: 952 	Token: 1 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 952 	Token: 2 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 952 	Token: 0 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 0 	Level of fuel: 951 	Token: 1 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 951 	Token: 2 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 951 	Token: 0 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Level of fuel: 950 	Token: 1 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 950 	Token: 2 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 950 	Token: 0 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 2 	Level of fuel: 949 	Token: 1 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 949 	Token: 2 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 949 	Token: 0 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 3 	Level of fuel: 948 	Token: 1 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 948 	Token: 2 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 948 	Token: 0 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 4 	Level of fuel: 947 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 947 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 947 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 5 	Level of fuel: 946 	Token: 1 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 946 	Token: 2 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 946 	Token: 0 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 6 	Level of fuel: 945 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 945 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 945 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 7 	Level of fuel: 944 	Token: 1 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 944 	Token: 2 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 944 	Token: 0 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 8 	Level of fuel: 943 	Token: 1 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 943 	Token: 2 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 943 	Token: 0 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 9 	Level of fuel: 942 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 942 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 942 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 10 	Level of fuel: 941 	Token: 1 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 941 	Token: 2 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 941 	Token: 0 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 11 	Level of fuel: 940 	Token: 1 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 940 	Token: 2 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 940 	Token: 0 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 939 	Token: 1 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 939 	Token: 2 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 939 	Token: 0 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 13 	Level of fuel: 938 	Token: 1 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 938 	Token: 2 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 938 	Token: 0 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 14 	Level of fuel: 937 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 937 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 937 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 15 	Level of fuel: 936 	Token: 1 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 936 	Token: 2 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 936 	Token: 0 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 16 	Level of fuel: 935 	Token: 1 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 935 	Token: 2 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 935 	Token: 0 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 17 	Level of fuel: 934 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 934 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 934 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 18 	Level of fuel: 933 	Token: 1 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 933 	Token: 2 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 933 	Token: 0 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 19 	Level of fuel: 932 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 932 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 932 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 20 	Level of fuel: 931 	Token: 1 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 931 	Token: 2 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 931 	Token: 0 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 21 	Level of fuel: 930 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 930 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 930 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 22 	Level of fuel: 929 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 929 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 929 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 23 	Level of fuel: 928 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 928 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 928 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 0 	Level of fuel: 927 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 927 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 927 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Level of fuel: 926 	Token: 1 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 926 	Token: 2 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 926 	Token: 0 
+Taxi : (7,8)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 2 	Level of fuel: 925 	Token: 1 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 925 	Token: 2 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 925 	Token: 0 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 3 	Level of fuel: 924 	Token: 1 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 924 	Token: 2 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 924 	Token: 0 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 4 	Level of fuel: 923 	Token: 1 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 923 	Token: 2 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 923 	Token: 0 
+Taxi : (6,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 5 	Level of fuel: 922 	Token: 1 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 922 	Token: 2 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 922 	Token: 0 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 6 	Level of fuel: 921 	Token: 1 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 921 	Token: 2 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 921 	Token: 0 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 7 	Level of fuel: 920 	Token: 1 
+Taxi : (4,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 920 	Token: 2 
+Taxi : (4,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 920 	Token: 0 
+Taxi : (4,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 8 	Level of fuel: 919 	Token: 1 
+Taxi : (4,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 919 	Token: 2 
+Taxi : (4,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 919 	Token: 0 
+Taxi : (4,8)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 9 	Level of fuel: 918 	Token: 1 
+Taxi : (5,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 918 	Token: 2 
+Taxi : (5,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 918 	Token: 0 
+Taxi : (5,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 10 	Level of fuel: 917 	Token: 1 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 917 	Token: 2 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 917 	Token: 0 
+Taxi : (5,7)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 11 	Level of fuel: 916 	Token: 1 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 916 	Token: 2 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 916 	Token: 0 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 12 	Level of fuel: 915 	Token: 1 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 915 	Token: 2 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 915 	Token: 0 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 13 	Level of fuel: 914 	Token: 1 
+Taxi : (5,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 914 	Token: 2 
+Taxi : (5,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 914 	Token: 0 
+Taxi : (5,6)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 14 	Level of fuel: 913 	Token: 1 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 913 	Token: 2 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 913 	Token: 0 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 15 	Level of fuel: 912 	Token: 1 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 912 	Token: 2 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 912 	Token: 0 
+Taxi : (7,6)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 16 	Level of fuel: 911 	Token: 1 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 911 	Token: 2 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 911 	Token: 0 
+Taxi : (7,7)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 17 	Level of fuel: 910 	Token: 1 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 910 	Token: 2 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 910 	Token: 0 
+Taxi : (6,7)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 18 	Level of fuel: 909 	Token: 1 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 909 	Token: 2 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 909 	Token: 0 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 19 	Level of fuel: 908 	Token: 1 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 908 	Token: 2 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 908 	Token: 0 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 20 	Level of fuel: 907 	Token: 1 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 907 	Token: 2 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 907 	Token: 0 
+Taxi : (6,6)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 21 	Level of fuel: 906 	Token: 1 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 906 	Token: 2 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 906 	Token: 0 
+Taxi : (6,5)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 22 	Level of fuel: 905 	Token: 1 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 905 	Token: 2 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 905 	Token: 0 
+Taxi : (7,5)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 23 	Level of fuel: 904 	Token: 1 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 904 	Token: 2 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 904 	Token: 0 
+Taxi : (8,5)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 903 	Token: 1 
+Taxi : (8,6)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 903 	Token: 2 
+Taxi : (8,6)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 903 	Token: 0 
+Taxi : (8,6)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 1 	Level of fuel: 902 	Token: 1 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 902 	Token: 2 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 902 	Token: 0 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 901 	Token: 1 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 901 	Token: 2 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 901 	Token: 0 
+Taxi : (8,8)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 3 	Level of fuel: 900 	Token: 1 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 900 	Token: 2 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 900 	Token: 0 
+Taxi : (8,7)
+
+ reward: []	 labels: set()
+

@@ -1,0 +1,2122 @@
+-------------------------------------------------------------- 
+Model type: 	MDP (sparse)
+States: 	1049564
+Transitions: 	1853297
+Choices: 	1853297
+Reward Models:  none
+State Labels: 	3 labels
+   * deadlock -> 0 item(s)
+   * init -> 1 item(s)
+   * Unsafe -> 4188 item(s)
+Choice Labels: 	6 labels
+   * North -> 287788 item(s)
+   * East -> 287834 item(s)
+   * West -> 287979 item(s)
+   * updateFuel -> 353847 item(s)
+   * updateDay -> 347858 item(s)
+   * South -> 287991 item(s)
+-------------------------------------------------------------- 
+
+Time of the day: 0 	Level of fuel: 10 	Token: 0 
+Taxi : (8,3)
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 9 	Token: 1 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 9 	Token: 2 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 9 	Token: 0 
+Taxi : (8,4)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 8 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 8 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 8 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 2 	Level of fuel: 7 	Token: 1 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 7 	Token: 2 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 7 	Token: 0 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 3 	Level of fuel: 6 	Token: 1 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 6 	Token: 2 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 6 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 4 	Level of fuel: 5 	Token: 1 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 5 	Token: 2 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 5 	Token: 0 
+Taxi : (7,3)
+
+ reward: []	 labels: set()
+
+--North-->
+
+Time of the day: 5 	Level of fuel: 4 	Token: 1 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 4 	Token: 2 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 4 	Token: 0 
+Taxi : (6,3)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 6 	Level of fuel: 3 	Token: 1 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 3 	Token: 2 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 3 	Token: 0 
+Taxi : (6,2)
+
+ reward: []	 labels: set()
+
+--West-->
+
+Time of the day: 7 	Level of fuel: 2 	Token: 1 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 2 	Token: 2 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 2 	Token: 0 
+Taxi : (6,1)
+
+ reward: []	 labels: set()
+
+--South-->
+
+Time of the day: 8 	Level of fuel: 1 	Token: 1 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 1 	Token: 2 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 1 	Token: 0 
+Taxi : (7,1)
+
+ reward: []	 labels: set()
+
+--East-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 5 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 6 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 7 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 8 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 9 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 10 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 11 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 12 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 13 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 14 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 15 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--North-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 16 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 17 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 18 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 19 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 20 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 21 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 22 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--South-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 23 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--East-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 0 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 1 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 2 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--West-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 1 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateFuel-->
+
+Time of the day: 3 	Level of fuel: 0 	Token: 2 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+
+--updateDay-->
+
+Time of the day: 4 	Level of fuel: 0 	Token: 0 
+Taxi : (7,2)
+
+ reward: []	 labels: {'Unsafe'}
+

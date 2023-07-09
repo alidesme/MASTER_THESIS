@@ -1,0 +1,23 @@
+-------------------------------------------------------------- 
+Model type: 	MDP (sparse)
+States: 	1
+Transitions: 	1
+Choices: 	1
+Reward Models:  none
+State Labels: 	3 labels
+   * deadlock -> 1 item(s)
+   * init -> 1 item(s)
+   * Unsafe -> 0 item(s)
+Choice Labels: 	0 labels
+-------------------------------------------------------------- 
+
+Time of the day: 0 	Level of fuel: 1000 	Token: 0 
+Taxi : (8,3)
+
+--_act_0-->
+
+Time of the day: 0 	Level of fuel: 1000 	Token: 0 
+Taxi : (8,3)
+
+ reward: []	 labels: {'deadlock', 'init'}
+
